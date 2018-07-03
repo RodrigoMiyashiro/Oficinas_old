@@ -1,0 +1,841 @@
+{
+    "html_attributions": [],
+    "next_page_token": "CrQCJQEAADGHE9-J6k3w6E7wcEKlsP2WkPzuAsUlnUAKgQiKB3xD9EcPOR3RwL84BZbN4ShKjwK8JCEsZA2pv4uE32bLYZKFa0ycGmXz2bKiE4RrWmO21AsU0xSTMM5xX3csRDq3DnPMGuT2R14EwWAf6ZF0nYgTP7U2aN-l_ZtJjV21MMDbvytP0YL_DNRG9eqolQvVF_PYVNCnWUD9weV4dgu8l2GbT64Ah_uTklpzSz16cKXoFNrEUvohr1o8BVsdOxuynu1h-l1QBupm4y5n1WYdcVlrKw8RtJNSAmyloF9E34jaAteUKXperoACovi8qB4m0Y-88-r6qv_tLPPIddxeqRFA5mMDS-eEuO7mzVRUt9dCmPfWzzeCrj4JagAQHvH6nkevShtZuhb1DY--WekGGNUSEDqvRQWTKFsehQ24pZqv1wgaFCgqAOau2lv6hLcJwnT8y6QHLo1o",
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5788101,
+                    "lng": -46.6403832
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5774283197085,
+                        "lng": -46.6389759697085
+                    },
+                    "southwest": {
+                        "lat": -23.5801262802915,
+                        "lng": -46.6416739302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "3fbf4e0e6975e8e968d36b73cc4a5e33a079ba6d",
+            "name": "Beto Braz Centro Automotivo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2340,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111794123075313969107/photos\">Adalberto Mota</a>"
+                    ],
+                    "photo_reference": "CmRaAAAACOb79k6MFHVvj2DI8Wu5pEfBZ0QgSDE9wUZCFLTePVZMljkPbcG_FwA_wRwkvb_n3dYX2gg40x3X0XdAF_3TjhGX85IEHCihBhryf6ytLBAAaV7yBQPzqQiwRhpgA5bKEhCCiyuZUgxUDGYI8wnXUrZEGhT94FYgnJ7XWzzzN9r3B55oJHlQ_g",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJSaapyppZzpQRNRP9QC2GYcE",
+            "plus_code": {
+                "compound_code": "C9C5+FR São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9C5+FR"
+            },
+            "rating": 4.2,
+            "reference": "CmRSAAAA8KTMfT51KAqisWrQhMAKnA_c_TqFogYx7y8vsOVXoxBzxP7lOMusH5weIW-JyZ-KgFGBCLsbu1BJqEiEBvvCpN5xwKGuCRf-T63MczM4Jb85JD_0phN1OGCCV-zAR7eREhBu-D9LUz32scaSfkcnqmJkGhSdI6Wc2zY3dKHuQr7SgShoHkyFrw",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Vergueiro, 1864 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5787403,
+                    "lng": -46.6404971
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5773448197085,
+                        "lng": -46.63906546970849
+                    },
+                    "southwest": {
+                        "lat": -23.5800427802915,
+                        "lng": -46.64176343029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "c000a2dd4335cb703a7f13a2f5d7856aca2ecbb3",
+            "name": "Arenas",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJOfaFtZpZzpQRubjAPIhvQzI",
+            "plus_code": {
+                "compound_code": "C9C5+GR São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9C5+GR"
+            },
+            "rating": 5,
+            "reference": "CmRRAAAAa6RGL_UuRHqvWupGnWuZcVcZVDqRuvgKigXhjvrUoh5XfrpQNfmPPuStulyIF-y8I24jmA8yWSPBFXPp1tQW05sliPuA04X15ucpw88adrpF491c9fWddtq6PfAjOgz4EhA1FWGoFuLqZoNaTC3QLlIIGhQ8UKGuMNHLLSffSy-hI0zOu4-5gg",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Vergueiro, 1850 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5824175,
+                    "lng": -46.6373857
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5811261197085,
+                        "lng": -46.6361310697085
+                    },
+                    "southwest": {
+                        "lat": -23.5838240802915,
+                        "lng": -46.6388290302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id": "c5c35a2035cb2e8ac08512ec7a92c73ac99136c2",
+            "name": "Rome Tires - Vila Mariana",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2620,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104287703487735394200/photos\">Vinicius Estevão</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAk3X34xFvdXEDCjouUb_FuBKVgmOWSpP77zeKK-IxcQyLB8GFRiZLGBKtZMSBuu6eDibXD8LI1PCxa7iiyYQUNA3OVIpjKxIeGY_povhi9smwqEWZRP2OuARcfvhU-SXLEhDlgZFpHyno6lU7RIxCv7YnGhQzKD0LyBOOqso5w4tZ-YmIfffxBw",
+                    "width": 4656
+                }
+            ],
+            "place_id": "ChIJfTzxp4ZZzpQRY5nPggI60TA",
+            "plus_code": {
+                "compound_code": "C997+22 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC997+22"
+            },
+            "rating": 3.6,
+            "reference": "CmRRAAAAGBGcDJES22mbAves3vNjbtKHtDH66vciW1W3PXwZo5aCk6zMwbfbUW96HDkJJzY4XcY5xMgK93Z22WPoDEshTVrB12DW_EwPY5nSA9ZyQ1QjGNBxcqdOnJMhZEsWk1UNEhAIH0sGCd6z_OtYFs55o0CUGhSb2JuTVbX_o-RdBg9fOcnXO8scnQ",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Vergueiro, 2375 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.57800899999999,
+                    "lng": -46.63501000000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5766555197085,
+                        "lng": -46.6336890697085
+                    },
+                    "southwest": {
+                        "lat": -23.5793534802915,
+                        "lng": -46.63638703029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "61759805d8147a730f29b6ecc1f461125997ab18",
+            "name": "Trioeletrico.net.br",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 700,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114456762901419975632/photos\">Trioeletrico.net.br</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAiw6Gt4_qTMii1yFw72ZRlXa7-XbDXomxlfG0qewm1uOq1c31IvFIi_GRtUVuow_P2cfkclDusYhC1Io1CgmcYX1843ydfGE_SGNnOVq6yjtFQJ2yjMN-TLEMSUQSsIB0EhBXvCju-sNTOhq0DkO0TXo2GhR49EDIhtNesEVNaDkgy4LMZ00J5w",
+                    "width": 1280
+                }
+            ],
+            "place_id": "ChIJxeffPINZzpQREDL0r3A_rPk",
+            "plus_code": {
+                "compound_code": "C9C7+QX São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9C7+QX"
+            },
+            "rating": 5,
+            "reference": "CmRSAAAApo0ktYXxSRBsANl9TojnKRIfav1tPdJqu47Oim7U2QGTv-2rUFoSfMMKfdc11lxprJlKFGsNd4QVF3gq7-EMX2gH0-HMHTK4NZJ8WipfHSta5xYSc766uL616i679xeDEhBsOPB99md55wNd3GDVB-DsGhSSyz4YKbnbizZNatO7uz7VIQKVog",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "electronics_store",
+                "store",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Paula Ney - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.58369099999999,
+                    "lng": -46.636672
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.58237156970849,
+                        "lng": -46.6353768197085
+                    },
+                    "southwest": {
+                        "lat": -23.5850695302915,
+                        "lng": -46.6380747802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "0805725c1db720a68ba47715206acf09563592ae",
+            "name": "Concorde",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJUYvYNIFZzpQRChs_Neq1nn4",
+            "plus_code": {
+                "compound_code": "C987+G8 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC987+G8"
+            },
+            "rating": 4.4,
+            "reference": "CmRRAAAAo5ThSK21oBGxK6rpqYkj_w1Gasvz9R4v_PzvrXkymAmso3OOUgU3OEGjIul4TRi8VyvH41VuHzhuhhsswUvgESLpXZjEqkym-qaIf85jSD4X7uriZWFhfDCaZV3DW0bfEhDyDe9S-hBBz2qiOP1Gc9s8GhSyk6nm__BQcT2XqnpO-NgnTbInHA",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Vergueiro, 2515 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5839405,
+                    "lng": -46.6371793
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5826627697085,
+                        "lng": -46.6359832697085
+                    },
+                    "southwest": {
+                        "lat": -23.5853607302915,
+                        "lng": -46.6386812302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "bd9e64257af7cd9d0262659f460c51a20550536f",
+            "name": "Service Center Vila Mariana Station Shell",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1836,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117651287020528873194/photos\">Nivaldo Monteiro</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAnyX_YAzmuiuV6GkbAXc72xalzFM8kYnfvm21_HaXjmQQvBgZzlfgKyGXkWxIg3W0AktjEcNl8ll9Oj_cGfL5S-88p29jwMqkz406P_PIoJ-TcKYP5BxIS3Z78eU70fp9EhCFANWPkqcy92cB3bF2ShwbGhQWulV6fSRdd8NmrDOtz8yaVPjjzw",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJFcorz4ZZzpQRjlD3D1LPLA4",
+            "plus_code": {
+                "compound_code": "C987+C4 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC987+C4"
+            },
+            "rating": 2.8,
+            "reference": "CmRRAAAANo9ldhOZAt0le01xx6_Y7_LjR9_qM4QZzs9zf499-OQhqUjhSWMcZ9_kr6jY-ClnfUUMotQ61gSC_7PV781bQzVhl1Sb5ccT0zxJJN9rOuGyVQosOA0AtitdbUhHj9z_EhAJwhRslarL7OhAEItNaN6KGhRd8WbGmJW5tJxP81pIGUf6zco_lg",
+            "scope": "GOOGLE",
+            "types": [
+                "car_wash",
+                "gas_station",
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Domingos de Morais, 853 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.577665,
+                    "lng": -46.642334
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5762503697085,
+                        "lng": -46.6410005697085
+                    },
+                    "southwest": {
+                        "lat": -23.5789483302915,
+                        "lng": -46.64369853029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "39cc8d671f188a1fdbeaf9a8a0ad82ed38825c21",
+            "name": "R & R Automotivo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1536,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106821811079472859068/photos\">Ize Kampus</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAPxESW0FkAzSc3Wy6Sp2jbZGzwbxR5_sp5isF3luzEe55f_T7Fu8zWInCFMDNJCs5Ahryd6oHiqKIFQ0VJHlVryW_j8Hqg8qYw-Vy1d-yHxnykbbZZpwRH2SCKJLvTERkEhBGKdvwsVH2zoV_Pxd-pIJ2GhQOQwW7VCQb8zLsX-XoAlyzTsx8ag",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJ3dOdZZBZzpQRG8AbQwAIx04",
+            "plus_code": {
+                "compound_code": "C9C5+W3 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9C5+W3"
+            },
+            "rating": 3.7,
+            "reference": "CmRRAAAAwKFcmUEvV9PZgAtB5784VM6uiwPbI99oTl99cVEtA6bTvXkV8fv-FuPZ4j0mAeTfPtN-g0cf-kYfSrF1OFazh4K_Pb-dlgY_QW8rmfL-6C5MKMBLI_H2VzfI9gI95a_DEhC952Ifuo7qUE1jg13sjC6YGhRmUQ4Q99su4RbwKlT-6VigqKQZCg",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Estela, 147 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.583028,
+                    "lng": -46.6416502
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5816581697085,
+                        "lng": -46.6402429697085
+                    },
+                    "southwest": {
+                        "lat": -23.5843561302915,
+                        "lng": -46.64294093029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "b5e128a11e604742caaad0f7b87eec46d5c91ae0",
+            "name": "MG Prestadora de Serviços para Veículos e Imóveis",
+            "place_id": "ChIJ-UIX94VZzpQRKEEHUX9Q80o",
+            "plus_code": {
+                "compound_code": "C985+Q8 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC985+Q8"
+            },
+            "reference": "CmRRAAAAFfVwFWVmzXTSLITYbXPs7vcGFUQBMRwjvM8JvFOUmZ79vmu_j9_Y4748JxGafc-6qyrNyKOpatVyJNVtzFGosaE3Zg734ywmrAMpkvSDJzBtoNBeuzSre-YxtfAEkFaxEhCqVCpHWE7n54or_8K9KjmbGhQok38iZcUTyC9PX4TsswnwRu9MCg",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Ambrosina de Macedo, 244 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5802056,
+                    "lng": -46.6395322
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5788149197085,
+                        "lng": -46.63810511970851
+                    },
+                    "southwest": {
+                        "lat": -23.5815128802915,
+                        "lng": -46.6408030802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id": "e516eb304e668bb725d187e06e458dda62b10166",
+            "name": "Vortex Garage",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3456,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107613485065793532916/photos\">daniel lopes</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAo3nwCAxljKMq-3rvuELCi77xlh1hzHquJxPEeHqGpVN87ZXrZs-kGAm02fuW4-x-RLDJhkrUGLAJ6TcDozVJPmH4EDRhOe7TsJ3diNHCN-XeQ5z8_0zuxOe_Vf6kLpfFEhC2AIJCJxckn8M4pGiqdQL8GhQITkgamRhBmbES6jJ85UkntIcwIQ",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJMxvZHIVZzpQR8KomQTIDDzA",
+            "plus_code": {
+                "compound_code": "C996+W5 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC996+W5"
+            },
+            "reference": "CmRRAAAAuAuax23NhVPP3RTiCtEqoj4kq-h1JwiY253TyCqioXde-yek-h-nNrvEzR934-srhWdh_zAty3P3W26MvOpUn7jF72cSBKlkgvelEcXsbXHwxA29Gap4sk9BaZrxZ5krEhBgRLTnu_lvKFl_TobGCMhGGhRY6WmBHgbn2GFVhMR_iNOEzuBdhA",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Vergueiro, 2060 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5815364,
+                    "lng": -46.6388752
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5801874197085,
+                        "lng": -46.6375262197085
+                    },
+                    "southwest": {
+                        "lat": -23.5828853802915,
+                        "lng": -46.6402241802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "d93a3dfe24485b204a799ed5c94056f01e12aac5",
+            "name": "JR Batore Auto Peças",
+            "place_id": "ChIJsS2hToRZzpQRykzIqrF8oz4",
+            "plus_code": {
+                "compound_code": "C996+9C São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC996+9C"
+            },
+            "reference": "CmRRAAAA0bYcTGyeNNWCAd-_HrOXT62G3pcCrxf083jIPBlxgikI_d0rf6gTKS1-LwJhMhmkaMfDF1OHt06zMTfiris4dtihzxHnHsIpW_OhNSYPm6AD1LVFkYe-Tf-Rg3wNfTtrEhCMhvllxq-Bq5DZidYAuHfwGhRdkIgaS6yMfUH67-JWMwudGAaqqg",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Avenida Dona Mariana Caligiori Ronchetti 537"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.57863709999999,
+                    "lng": -46.6392554
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5772629197085,
+                        "lng": -46.6379218197085
+                    },
+                    "southwest": {
+                        "lat": -23.5799608802915,
+                        "lng": -46.6406197802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "d1bce769ff2ffd1dc998c80b013da9390ff78641",
+            "name": "Lince Comércio de Lubrificantes",
+            "place_id": "ChIJs3xEKoVZzpQRHOoL0k8Fh7g",
+            "plus_code": {
+                "compound_code": "C9C6+G7 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9C6+G7"
+            },
+            "reference": "CmRSAAAARx05tZNYYMr6GBEBN6WOkb9bq9xB-HLXY20LVhjycvBgO4EjPLePezmcQ-xZM9Ahb7-rvgkUDH6oP5ciY31rxuCP5RG0CWllnC-afSe92Zswa1zHbpBq1oFWiTFXoCHxEhCS1qq4OKOD4pryV6ncpO_LGhRqvGmC8VQ5ZFvcUfDAZGTh63jtGA",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Jardim Ivone, 17 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5826031,
+                    "lng": -46.6377767
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5812626197085,
+                        "lng": -46.63644516970851
+                    },
+                    "southwest": {
+                        "lat": -23.5839605802915,
+                        "lng": -46.63914313029151
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "5ac23fc1c9c8a7e05e0ea560a75636ec882ce543",
+            "name": "Auto Elétrico Concorde",
+            "place_id": "ChIJrQEmp4ZZzpQRKPgvJWZ0aqw",
+            "plus_code": {
+                "compound_code": "C986+XV São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC986+XV"
+            },
+            "reference": "CmRSAAAANFbGl6uOABeG3ZfrgFL87AUbqeOLIkk6LTp5IzDSyVYkaE6muBK078isVqzKpHVE21xTIBmr5dQRmlbcRHrcbZqo7AWdyTEoWsLEQP_1UYYPRMKEMDCBhPVE94LOFR4LEhCuBLftnLtcLcO2Htr7mcBiGhQSHUe62vfFn_8Kv4nEOplAG-UBcQ",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Vergueiro, 2368 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5792346,
+                    "lng": -46.64131709999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5778263697085,
+                        "lng": -46.6400101697085
+                    },
+                    "southwest": {
+                        "lat": -23.5805243302915,
+                        "lng": -46.6427081302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "97d7ff96b70084a3635d7c5776ea9d5b35022684",
+            "name": "Denise A Lopes",
+            "place_id": "ChIJqZuDVIVZzpQRoZ3b2V2pB24",
+            "plus_code": {
+                "compound_code": "C9C5+8F São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9C5+8F"
+            },
+            "reference": "CmRRAAAAYzTz-_CdW5tXdU_PPULNgtEHo7troc8kY2Qh5e48Q67-g6ZrPUxZOeUxRa9Vwva_mqyxK2u0LPUxbczJDnDzYG6KwIGtwKDU1Ay9NteZE9bW_21qkK1-Asj8-CMsFNyBEhBIWIH1QPA0Q_RMvq7njeQLGhTLP-92DU0_GZQ8DCnqSuCZq7SjNA",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua José Antônio Coelho, 45 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5819655,
+                    "lng": -46.6358849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5806169697085,
+                        "lng": -46.63453681970849
+                    },
+                    "southwest": {
+                        "lat": -23.5833149302915,
+                        "lng": -46.63723478029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "2bdcf42bde57301415e91dd951135a65fbb0aa2a",
+            "name": "Electrical Auto Mechanics",
+            "place_id": "ChIJC0484oNZzpQRZTfe8L4YILM",
+            "plus_code": {
+                "compound_code": "C997+6J São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC997+6J"
+            },
+            "rating": 5,
+            "reference": "CmRSAAAAx0qQUn1EI3ENh-RMAQdxGZbjO3xkXzB4FTg6-QGl1_EzRVDVoy7z802f5MRV20YKij9uriXhsHx8PLDmXag28ub-M41Fbg9StJYiuxRtHME53OXLXOAfuwwqRQVRodNoEhBkepkmzzxmaT1xfUArL8QlGhTJXBdFdtYXvzpeHRzb554i-sVZNQ",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Gregório Serrão, 138 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5778502,
+                    "lng": -46.63614189999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.57650396970849,
+                        "lng": -46.6347775697085
+                    },
+                    "southwest": {
+                        "lat": -23.5792019302915,
+                        "lng": -46.6374755302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "1943ab2fc58def322ec3b7456259ad69d57af0ea",
+            "name": "TFT Ferramentas - tudo para oficinas mecânicas, funilaria e pintura",
+            "photos": [
+                {
+                    "height": 528,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103433342330527651638/photos\">TFT Ferramentas - tudo para oficinas mecânicas, funilaria e pintura</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAYrR8l95D-q9vIGYl92YR5MFTH5UhJK1ZBLUwNXLRuNValSs4iOHCrXUFoN89Pstfbm4KeCBDXwes3DLODdGygJooiky0csjn9ejpDSNgZyX8whK2UwZ5AZLcZGL8Vg4UEhA4gAN5iGAS_eeTFk1qmzpHGhR1ZpUiou7rW0lvAx7HIUd8EXJLMQ",
+                    "width": 650
+                }
+            ],
+            "place_id": "ChIJVQnYT4NZzpQRjpO4j1jW6YE",
+            "plus_code": {
+                "compound_code": "C9C7+VG São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9C7+VG"
+            },
+            "rating": 5,
+            "reference": "CmRSAAAAxLDGRwgWh6fAbL8BQvfdi08OpwfeDOUNr57V1MrAoEAB-S5MrrJeG0yJwYwm39eF1Ew7ID65lchIyuyNrN2iV_2xShLde4Y1dy7PgxP67wOuAl8FCtf08pL1CHZWdvfSEhD_Bd4_VfPAn7HBBwwnJBS-GhRHM-_BDEvrurKIIh7K_B2d-72boA",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Doutor Nicolau de Sousa Queirós, 760 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5771429,
+                    "lng": -46.6408522
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5757928197085,
+                        "lng": -46.63945981970851
+                    },
+                    "southwest": {
+                        "lat": -23.5784907802915,
+                        "lng": -46.64215778029151
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "ed6ed25115e46e4e247c0f02240b21a508a5ac42",
+            "name": "Auto Mecânica Bady Car",
+            "place_id": "ChIJ947Ij5pZzpQRoJsNmG0VYw4",
+            "plus_code": {
+                "compound_code": "C9F5+4M São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9F5+4M"
+            },
+            "reference": "CmRRAAAA-Im-SpWeIX29SmLX21E2HUKM-U9Tkg6z9mwhuXxsSeG-zxpfjXweSxXhZw9THMn6lxOx_wztY1O5hwRCUieMtTMX9_OMdRaQRJPJ3OxH3CbjKrd9cpMohSYcp11DSbp_EhA6tqBYEHhM2JFFhyOwnK7dGhRHVcZ0too4sa--CeHnzwWdOTDAZQ",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Vergueiro, 4392 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5785243,
+                    "lng": -46.6423346
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5772225697085,
+                        "lng": -46.6409665697085
+                    },
+                    "southwest": {
+                        "lat": -23.5799205302915,
+                        "lng": -46.6436645302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id": "be75cf79273aaf5f247d977b04a1d232cb00f723",
+            "name": "Fbf motos",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3264,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110162581459394335851/photos\">Paulo Rosa</a>"
+                    ],
+                    "photo_reference": "CmRaAAAALHhObFR1gMMAc3AQ2Pwx9RDOjPYiRnnT4ZIAz0w45U1aPvo6P3_bpfLCqwt9ubH17ynk8TM0hUIX9nbrn1VGQsE-9tqVodNRMkqezgmG2TY8t4wolFRKcXllTF3KCrqlEhDcdhODmnHypQK0ysU2yo5WGhRV03HMV35LIbLy_heMg-ZngirQsg",
+                    "width": 1836
+                }
+            ],
+            "place_id": "ChIJITdJEpBZzpQRMuoyeop5JAA",
+            "plus_code": {
+                "compound_code": "C9C5+H3 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9C5+H3"
+            },
+            "rating": 4.1,
+            "reference": "ClRQAAAA9PBXJGgz-0Twku4M9GXJO0vM6nG5qfWWhCnMGR6EXmJeqqbb6felZ-L-QkqnhfeDsNnyANm-pCViNgzYKkbxcKiyeZqWQH1xXlv3jwzu97ESEE2lf6lrrw652-x1MtzbRl4aFGoSQG5GOUXskT4CUdfSb56rTXYA",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Eça de Queiroz, 136 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.583351,
+                    "lng": -46.63598869999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5819880197085,
+                        "lng": -46.63460986970851
+                    },
+                    "southwest": {
+                        "lat": -23.5846859802915,
+                        "lng": -46.6373078302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id": "069eca9b14a86eef4afb2b1c55a0c9aed31ec93c",
+            "name": "GS Borracharia",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116301637586994742892/photos\">GS Borracharia</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAIEzfpmGxhavPtiB27zWwX4eZM0mOKyasE6kgYkb6AmKu6TtVBB6gO7hR5hn_Ww_Ju4K3izb896Sh_oJFekAmb50WaZcsdjRvvD3OPg6O3S3zzeXL51gynnPcvhkoEgfwEhBy4HrKghwcGwwE7PkIxxGxGhQdRPFWb9sYTQske_e8OxD_82SmBA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJe8PsOIFZzpQRumfK9XCyAdo",
+            "plus_code": {
+                "compound_code": "C987+MJ São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC987+MJ"
+            },
+            "rating": 4.8,
+            "reference": "CmRSAAAAhr2tIj04TnDRSedaLZ4TPQFOho5KZ8yJnRLy7I4bZH6FNEdWO0fXxj8_Aft9MhdMKzNwEqUE8dsKMQGphnVPDYAJXBCDBVvfid8vkNsKzdCudxQRozhg7MlVO2KsWsyeEhAOx8BI4IlXr-DjEv9XZSPgGhSz6gJye7N5Z50pQ7VDfLnb9X9i8A",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Manoel de Paiva, 168 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5841146,
+                    "lng": -46.63711000000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5827308697085,
+                        "lng": -46.63578326970851
+                    },
+                    "southwest": {
+                        "lat": -23.5854288302915,
+                        "lng": -46.63848123029151
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "95f7bb0a1c8796dbe5815b09cdd4e8a53363613a",
+            "name": "High-Tech - Serviços Automotivos",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3264,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110604230566336420286/photos\">Yka Coelho</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAQhru24bq1XIAtKOSjOZ_g0686im6BNtne2P2WQ5TEB8rkBzvxXIhx6n3jfICywH6oRuFMrx9k5Jng33Mr78UjhrIots16eQdjDsW4-idOS5aDMisAdD7oSdG5ze6hb7fEhCxQZHPZ1LtzuazKj65XGX4GhQxqWPkarw5DueVAatPzrkc7FxPzw",
+                    "width": 2448
+                }
+            ],
+            "place_id": "ChIJDxRhzoZZzpQRLrFNX95kNFc",
+            "plus_code": {
+                "compound_code": "C987+95 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC987+95"
+            },
+            "rating": 4.3,
+            "reference": "CmRRAAAAhtZHRQvhkZcgBmGELHFChxhbjbmgpVxihtLDFjU0ahADP329-BRYW1fItkOVNyHu1KLajVs8ispc8m_uhrUW1xtoibMK_PzPXULURB345blH4ehJ1x4Vj_WB0hHuGNl-EhCVpk_-EFbeZ832Y3bthgy3GhTJ2vN2jLydiGK-TYhwbOMEh3HQ2Q",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Joaquim Távora, 425 - Vila Mariana, São Paulo"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": -23.5775461,
+                    "lng": -46.6347633
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.5761682697085,
+                        "lng": -46.6333614197085
+                    },
+                    "southwest": {
+                        "lat": -23.5788662302915,
+                        "lng": -46.63605938029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "f1144784be4947a86c04878f13743311a4e34cda",
+            "name": "Oil Change",
+            "place_id": "ChIJoyCZJYNZzpQRbQqJ4tmh5ZE",
+            "plus_code": {
+                "compound_code": "C9C8+X3 São Paulo, State of São Paulo, Brazil",
+                "global_code": "588MC9C8+X3"
+            },
+            "reference": "CmRSAAAAE3Zs_p8pM9f2BT7COSvnNYuhRX7umQQm4fBpuzeGhQD3rDqIXEcjK0fpHvMMK3iz5CiKKROwmONo2AB2Hvvdu28IIhzkIeFaPf1sA5GPKERBWSug5sEfFKyx9rY5ahhQEhAerd8HdEAgdLSVSyPnne9tGhQNC1wKBPSWFYKSnVYfSlraNvvnXQ",
+            "scope": "GOOGLE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Rua Guimarães Passos, 48 - Vila Mariana, São Paulo"
+        }
+    ],
+    "status": "OK"
+}

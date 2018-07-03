@@ -16,6 +16,28 @@
 		5BA519FB20EB2FD400866210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA519F920EB2FD400866210 /* LaunchScreen.storyboard */; };
 		5BA51A0620EB2FD400866210 /* OficinasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A0520EB2FD400866210 /* OficinasTests.swift */; };
 		5BA51A1120EB2FD400866210 /* OficinasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A1020EB2FD400866210 /* OficinasUITests.swift */; };
+		5BA51A2620EB323F00866210 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A2520EB323F00866210 /* Request.swift */; };
+		5BA51A2920EB32C400866210 /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A2820EB32C400866210 /* GooglePlacesManager.swift */; };
+		5BA51A2C20EB332A00866210 /* GooglePlacesTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BA51A2B20EB332A00866210 /* GooglePlacesTest.json */; };
+		5BA51A3120EB338200866210 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A3020EB338200866210 /* CustomViewController.swift */; };
+		5BA51A3320EB339100866210 /* CarRepairListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A3220EB339100866210 /* CarRepairListViewController.swift */; };
+		5BA51A3520EB339D00866210 /* CarRepairDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A3420EB339D00866210 /* CarRepairDetailViewController.swift */; };
+		5BA51A3820EB33BA00866210 /* GooglePlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A3720EB33BA00866210 /* GooglePlacesViewModel.swift */; };
+		5BA51A3B20EB33D700866210 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A3A20EB33D700866210 /* Protocols.swift */; };
+		5BA51A3E20EB33EA00866210 /* GooglePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A3D20EB33EA00866210 /* GooglePlaces.swift */; };
+		5BA51A4020EB33F800866210 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A3F20EB33F800866210 /* UIView.swift */; };
+		5BA51A4220EB340000866210 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A4120EB340000866210 /* UIViewController.swift */; };
+		5BA51A4520EB343300866210 /* GeneratorURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A4420EB343300866210 /* GeneratorURL.swift */; };
+		5BA51A4920EB348700866210 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A4820EB348700866210 /* Alert.swift */; };
+		5BA51A4B20EB349800866210 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A4A20EB349800866210 /* Spinner.swift */; };
+		5BA51A4E20EB34CA00866210 /* APIURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A4D20EB34CA00866210 /* APIURL.swift */; };
+		5BA51A5020EB351600866210 /* GooglePlacesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A4F20EB351600866210 /* GooglePlacesTest.swift */; };
+		5BA51A5220EB352E00866210 /* GooglePlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5120EB352E00866210 /* GooglePlacesViewModel.swift */; };
+		5BA51A5420EB353F00866210 /* CarRepairListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5320EB353F00866210 /* CarRepairListViewControllerTest.swift */; };
+		5BA51A5620EB354A00866210 /* CarRepairDetailViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5520EB354A00866210 /* CarRepairDetailViewControllerTest.swift */; };
+		5BA51A5820EB355700866210 /* CustomViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5720EB355700866210 /* CustomViewControllerTest.swift */; };
+		5BA51A5A20EB356700866210 /* GooglePlacesListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5920EB356700866210 /* GooglePlacesListTest.swift */; };
+		5BA51A5C20EB357800866210 /* GooglePlacesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5B20EB357800866210 /* GooglePlacesList.swift */; };
 		5CC2B82442117935AD5485C2 /* Pods_Oficinas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C84B7CDAC80B67F4884AA /* Pods_Oficinas.framework */; };
 		EB52CE2AE6CF2040302ABAA1 /* Pods_OficinasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD2F1CF14CF2994130A515F /* Pods_OficinasUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +75,28 @@
 		5BA51A0C20EB2FD400866210 /* OficinasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OficinasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA51A1020EB2FD400866210 /* OficinasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OficinasUITests.swift; sourceTree = "<group>"; };
 		5BA51A1220EB2FD400866210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA51A2520EB323F00866210 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		5BA51A2820EB32C400866210 /* GooglePlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesManager.swift; sourceTree = "<group>"; };
+		5BA51A2B20EB332A00866210 /* GooglePlacesTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GooglePlacesTest.json; sourceTree = "<group>"; };
+		5BA51A3020EB338200866210 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		5BA51A3220EB339100866210 /* CarRepairListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairListViewController.swift; sourceTree = "<group>"; };
+		5BA51A3420EB339D00866210 /* CarRepairDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailViewController.swift; sourceTree = "<group>"; };
+		5BA51A3720EB33BA00866210 /* GooglePlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesViewModel.swift; sourceTree = "<group>"; };
+		5BA51A3A20EB33D700866210 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		5BA51A3D20EB33EA00866210 /* GooglePlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlaces.swift; sourceTree = "<group>"; };
+		5BA51A3F20EB33F800866210 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5BA51A4120EB340000866210 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		5BA51A4420EB343300866210 /* GeneratorURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorURL.swift; sourceTree = "<group>"; };
+		5BA51A4820EB348700866210 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5BA51A4A20EB349800866210 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		5BA51A4D20EB34CA00866210 /* APIURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURL.swift; sourceTree = "<group>"; };
+		5BA51A4F20EB351600866210 /* GooglePlacesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesTest.swift; sourceTree = "<group>"; };
+		5BA51A5120EB352E00866210 /* GooglePlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesViewModel.swift; sourceTree = "<group>"; };
+		5BA51A5320EB353F00866210 /* CarRepairListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairListViewControllerTest.swift; sourceTree = "<group>"; };
+		5BA51A5520EB354A00866210 /* CarRepairDetailViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailViewControllerTest.swift; sourceTree = "<group>"; };
+		5BA51A5720EB355700866210 /* CustomViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewControllerTest.swift; sourceTree = "<group>"; };
+		5BA51A5920EB356700866210 /* GooglePlacesListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesListTest.swift; sourceTree = "<group>"; };
+		5BA51A5B20EB357800866210 /* GooglePlacesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesList.swift; sourceTree = "<group>"; };
 		716C84B7CDAC80B67F4884AA /* Pods_Oficinas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oficinas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F123F25F27A6A717A5958E /* Pods-Oficinas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oficinas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oficinas/Pods-Oficinas.debug.xcconfig"; sourceTree = "<group>"; };
 		765BA23169D62D92413F5170 /* Pods-OficinasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OficinasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OficinasUITests/Pods-OficinasUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +175,13 @@
 			children = (
 				5BA519ED20EB2FD000866210 /* AppDelegate.swift */,
 				5BA519EF20EB2FD000866210 /* ViewController.swift */,
+				5BA51A2220EB31C700866210 /* Utils */,
+				5BA51A2120EB31C500866210 /* Extension */,
+				5BA51A2420EB322B00866210 /* Request */,
+				5BA51A3920EB33C500866210 /* Protocols */,
+				5BA51A2020EB31C200866210 /* Model */,
+				5BA51A1F20EB31C100866210 /* ViewModel */,
+				5BA51A1E20EB31BD00866210 /* ViewController */,
 				5BA519F120EB2FD000866210 /* Main.storyboard */,
 				5BA519F720EB2FD400866210 /* Assets.xcassets */,
 				5BA519F920EB2FD400866210 /* LaunchScreen.storyboard */,
@@ -144,6 +195,12 @@
 			isa = PBXGroup;
 			children = (
 				5BA51A0520EB2FD400866210 /* OficinasTests.swift */,
+				5BA51A4F20EB351600866210 /* GooglePlacesTest.swift */,
+				5BA51A5920EB356700866210 /* GooglePlacesListTest.swift */,
+				5BA51A5120EB352E00866210 /* GooglePlacesViewModel.swift */,
+				5BA51A5720EB355700866210 /* CustomViewControllerTest.swift */,
+				5BA51A5320EB353F00866210 /* CarRepairListViewControllerTest.swift */,
+				5BA51A5520EB354A00866210 /* CarRepairDetailViewControllerTest.swift */,
 				5BA51A0720EB2FD400866210 /* Info.plist */,
 			);
 			path = OficinasTests;
@@ -156,6 +213,167 @@
 				5BA51A1220EB2FD400866210 /* Info.plist */,
 			);
 			path = OficinasUITests;
+			sourceTree = "<group>";
+		};
+		5BA51A1E20EB31BD00866210 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A2F20EB336700866210 /* Custom ViewController */,
+				5BA51A2E20EB335400866210 /* Car Repair List ViewController */,
+				5BA51A2D20EB334600866210 /* Car Repair Detail ViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5BA51A1F20EB31C100866210 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A3620EB33A800866210 /* GooglePlaces ViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BA51A2020EB31C200866210 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A3C20EB33DF00866210 /* GooglePlaces */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BA51A2120EB31C500866210 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A3F20EB33F800866210 /* UIView.swift */,
+				5BA51A4120EB340000866210 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5BA51A2220EB31C700866210 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A4720EB347200866210 /* Alert */,
+				5BA51A4620EB346900866210 /* Spinner */,
+				5BA51A4320EB341400866210 /* Generate URL */,
+				5BA51A2A20EB331700866210 /* JSON to Test */,
+				5BA51A2320EB31EC00866210 /* Enum */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5BA51A2320EB31EC00866210 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A4C20EB34AF00866210 /* API_URL */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		5BA51A2420EB322B00866210 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A2520EB323F00866210 /* Request.swift */,
+				5BA51A2720EB32A600866210 /* Google Places API */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		5BA51A2720EB32A600866210 /* Google Places API */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A2820EB32C400866210 /* GooglePlacesManager.swift */,
+			);
+			path = "Google Places API";
+			sourceTree = "<group>";
+		};
+		5BA51A2A20EB331700866210 /* JSON to Test */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A2B20EB332A00866210 /* GooglePlacesTest.json */,
+			);
+			path = "JSON to Test";
+			sourceTree = "<group>";
+		};
+		5BA51A2D20EB334600866210 /* Car Repair Detail ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A3420EB339D00866210 /* CarRepairDetailViewController.swift */,
+			);
+			path = "Car Repair Detail ViewController";
+			sourceTree = "<group>";
+		};
+		5BA51A2E20EB335400866210 /* Car Repair List ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A3220EB339100866210 /* CarRepairListViewController.swift */,
+			);
+			path = "Car Repair List ViewController";
+			sourceTree = "<group>";
+		};
+		5BA51A2F20EB336700866210 /* Custom ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A3020EB338200866210 /* CustomViewController.swift */,
+			);
+			path = "Custom ViewController";
+			sourceTree = "<group>";
+		};
+		5BA51A3620EB33A800866210 /* GooglePlaces ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A3720EB33BA00866210 /* GooglePlacesViewModel.swift */,
+			);
+			path = "GooglePlaces ViewModel";
+			sourceTree = "<group>";
+		};
+		5BA51A3920EB33C500866210 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A3A20EB33D700866210 /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5BA51A3C20EB33DF00866210 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A3D20EB33EA00866210 /* GooglePlaces.swift */,
+				5BA51A5B20EB357800866210 /* GooglePlacesList.swift */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		5BA51A4320EB341400866210 /* Generate URL */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A4420EB343300866210 /* GeneratorURL.swift */,
+			);
+			path = "Generate URL";
+			sourceTree = "<group>";
+		};
+		5BA51A4620EB346900866210 /* Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A4A20EB349800866210 /* Spinner.swift */,
+			);
+			path = Spinner;
+			sourceTree = "<group>";
+		};
+		5BA51A4720EB347200866210 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A4820EB348700866210 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		5BA51A4C20EB34AF00866210 /* API_URL */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A4D20EB34CA00866210 /* APIURL.swift */,
+			);
+			path = API_URL;
 			sourceTree = "<group>";
 		};
 		E0048DB588950FD1416D0970 /* Frameworks */ = {
@@ -283,6 +501,7 @@
 			files = (
 				5BA519FB20EB2FD400866210 /* LaunchScreen.storyboard in Resources */,
 				5BA519F820EB2FD400866210 /* Assets.xcassets in Resources */,
+				5BA51A2C20EB332A00866210 /* GooglePlacesTest.json in Resources */,
 				5BA519F320EB2FD000866210 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,8 +689,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA519F020EB2FD000866210 /* ViewController.swift in Sources */,
+				5BA51A3520EB339D00866210 /* CarRepairDetailViewController.swift in Sources */,
+				5BA51A3320EB339100866210 /* CarRepairListViewController.swift in Sources */,
+				5BA51A4920EB348700866210 /* Alert.swift in Sources */,
+				5BA51A3820EB33BA00866210 /* GooglePlacesViewModel.swift in Sources */,
+				5BA51A4020EB33F800866210 /* UIView.swift in Sources */,
+				5BA51A3E20EB33EA00866210 /* GooglePlaces.swift in Sources */,
+				5BA51A4B20EB349800866210 /* Spinner.swift in Sources */,
+				5BA51A2620EB323F00866210 /* Request.swift in Sources */,
+				5BA51A4220EB340000866210 /* UIViewController.swift in Sources */,
+				5BA51A4E20EB34CA00866210 /* APIURL.swift in Sources */,
+				5BA51A3B20EB33D700866210 /* Protocols.swift in Sources */,
 				5BA519F620EB2FD000866210 /* Oficinas.xcdatamodeld in Sources */,
+				5BA51A3120EB338200866210 /* CustomViewController.swift in Sources */,
+				5BA51A5C20EB357800866210 /* GooglePlacesList.swift in Sources */,
+				5BA51A4520EB343300866210 /* GeneratorURL.swift in Sources */,
 				5BA519EE20EB2FD000866210 /* AppDelegate.swift in Sources */,
+				5BA51A2920EB32C400866210 /* GooglePlacesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +713,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA51A5A20EB356700866210 /* GooglePlacesListTest.swift in Sources */,
+				5BA51A5420EB353F00866210 /* CarRepairListViewControllerTest.swift in Sources */,
+				5BA51A5820EB355700866210 /* CustomViewControllerTest.swift in Sources */,
+				5BA51A5220EB352E00866210 /* GooglePlacesViewModel.swift in Sources */,
+				5BA51A5020EB351600866210 /* GooglePlacesTest.swift in Sources */,
+				5BA51A5620EB354A00866210 /* CarRepairDetailViewControllerTest.swift in Sources */,
 				5BA51A0620EB2FD400866210 /* OficinasTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
