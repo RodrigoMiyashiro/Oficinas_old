@@ -13,3 +13,31 @@ protocol ListControl: class
 {
     func parseJSON(arrayJson: [JSON])
 }
+
+protocol InitializerProtocol: class
+{
+    init()
+}
+
+protocol Countable: class
+{
+    func numberOfRows() -> Int
+}
+
+protocol RequestElement: class
+{
+    func request(completion: @escaping(Error?) -> Void)
+}
+
+protocol RequestElementURL: class
+{
+    func request(withURL url: String, completion: @escaping(Error?) -> Void)
+}
+
+
+
+protocol SingleElement: InitializerProtocol, RequestElement { }
+
+protocol ListProtocol: InitializerProtocol, Countable, RequestElement { }
+
+protocol ListParamURLProtocol: InitializerProtocol, Countable, RequestElementURL { }
