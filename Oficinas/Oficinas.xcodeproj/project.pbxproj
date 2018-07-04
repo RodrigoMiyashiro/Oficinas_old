@@ -38,6 +38,17 @@
 		5BA51A5820EB355700866210 /* CustomViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5720EB355700866210 /* CustomViewControllerTest.swift */; };
 		5BA51A5A20EB356700866210 /* GooglePlacesListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5920EB356700866210 /* GooglePlacesListTest.swift */; };
 		5BA51A5C20EB357800866210 /* GooglePlacesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5B20EB357800866210 /* GooglePlacesList.swift */; };
+		5BA51A5F20EC777000866210 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5E20EC777000866210 /* APIKey.swift */; };
+		5BA51A6120EC828F00866210 /* UIImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A6020EC828F00866210 /* UIImage+Kingfisher.swift */; };
+		5BA51A6420EC836400866210 /* NavigationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A6320EC836400866210 /* NavigationType.swift */; };
+		5BA51A6720EC85BE00866210 /* LatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A6620EC85BE00866210 /* LatLng.swift */; };
+		5BA51A6920EC86E000866210 /* Viewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A6820EC86E000866210 /* Viewport.swift */; };
+		5BA51A6B20EC878900866210 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A6A20EC878900866210 /* Geometry.swift */; };
+		5BA51A6D20EC88FE00866210 /* OpeningHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A6C20EC88FE00866210 /* OpeningHours.swift */; };
+		5BA51A7020EC8AFF00866210 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A6F20EC8AFF00866210 /* Photo.swift */; };
+		5BA51A7220EC8B0B00866210 /* ListPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A7120EC8B0B00866210 /* ListPhoto.swift */; };
+		5BA51A7420EC8DB700866210 /* PlusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A7320EC8DB700866210 /* PlusCode.swift */; };
+		5BA51A7620EC8E6000866210 /* ListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A7520EC8E6000866210 /* ListType.swift */; };
 		5CC2B82442117935AD5485C2 /* Pods_Oficinas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C84B7CDAC80B67F4884AA /* Pods_Oficinas.framework */; };
 		EB52CE2AE6CF2040302ABAA1 /* Pods_OficinasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD2F1CF14CF2994130A515F /* Pods_OficinasUITests.framework */; };
 /* End PBXBuildFile section */
@@ -97,6 +108,17 @@
 		5BA51A5720EB355700866210 /* CustomViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewControllerTest.swift; sourceTree = "<group>"; };
 		5BA51A5920EB356700866210 /* GooglePlacesListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesListTest.swift; sourceTree = "<group>"; };
 		5BA51A5B20EB357800866210 /* GooglePlacesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesList.swift; sourceTree = "<group>"; };
+		5BA51A5E20EC777000866210 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		5BA51A6020EC828F00866210 /* UIImage+Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Kingfisher.swift"; sourceTree = "<group>"; };
+		5BA51A6320EC836400866210 /* NavigationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationType.swift; sourceTree = "<group>"; };
+		5BA51A6620EC85BE00866210 /* LatLng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatLng.swift; sourceTree = "<group>"; };
+		5BA51A6820EC86E000866210 /* Viewport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewport.swift; sourceTree = "<group>"; };
+		5BA51A6A20EC878900866210 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		5BA51A6C20EC88FE00866210 /* OpeningHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHours.swift; sourceTree = "<group>"; };
+		5BA51A6F20EC8AFF00866210 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		5BA51A7120EC8B0B00866210 /* ListPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPhoto.swift; sourceTree = "<group>"; };
+		5BA51A7320EC8DB700866210 /* PlusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCode.swift; sourceTree = "<group>"; };
+		5BA51A7520EC8E6000866210 /* ListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListType.swift; sourceTree = "<group>"; };
 		716C84B7CDAC80B67F4884AA /* Pods_Oficinas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oficinas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F123F25F27A6A717A5958E /* Pods-Oficinas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oficinas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oficinas/Pods-Oficinas.debug.xcconfig"; sourceTree = "<group>"; };
 		765BA23169D62D92413F5170 /* Pods-OficinasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OficinasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OficinasUITests/Pods-OficinasUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -236,6 +258,8 @@
 		5BA51A2020EB31C200866210 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BA51A6E20EC8AF300866210 /* Photo */,
+				5BA51A6520EC858D00866210 /* Complements */,
 				5BA51A3C20EB33DF00866210 /* GooglePlaces */,
 			);
 			path = Model;
@@ -246,6 +270,7 @@
 			children = (
 				5BA51A3F20EB33F800866210 /* UIView.swift */,
 				5BA51A4120EB340000866210 /* UIViewController.swift */,
+				5BA51A6020EC828F00866210 /* UIImage+Kingfisher.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -265,6 +290,8 @@
 		5BA51A2320EB31EC00866210 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				5BA51A6220EC834400866210 /* Navigation Type */,
+				5BA51A5D20EC776000866210 /* API Key */,
 				5BA51A4C20EB34AF00866210 /* API_URL */,
 			);
 			path = Enum;
@@ -374,6 +401,44 @@
 				5BA51A4D20EB34CA00866210 /* APIURL.swift */,
 			);
 			path = API_URL;
+			sourceTree = "<group>";
+		};
+		5BA51A5D20EC776000866210 /* API Key */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A5E20EC777000866210 /* APIKey.swift */,
+			);
+			path = "API Key";
+			sourceTree = "<group>";
+		};
+		5BA51A6220EC834400866210 /* Navigation Type */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A6320EC836400866210 /* NavigationType.swift */,
+			);
+			path = "Navigation Type";
+			sourceTree = "<group>";
+		};
+		5BA51A6520EC858D00866210 /* Complements */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A6620EC85BE00866210 /* LatLng.swift */,
+				5BA51A6820EC86E000866210 /* Viewport.swift */,
+				5BA51A6A20EC878900866210 /* Geometry.swift */,
+				5BA51A6C20EC88FE00866210 /* OpeningHours.swift */,
+				5BA51A7320EC8DB700866210 /* PlusCode.swift */,
+				5BA51A7520EC8E6000866210 /* ListType.swift */,
+			);
+			path = Complements;
+			sourceTree = "<group>";
+		};
+		5BA51A6E20EC8AF300866210 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				5BA51A6F20EC8AFF00866210 /* Photo.swift */,
+				5BA51A7120EC8B0B00866210 /* ListPhoto.swift */,
+			);
+			path = Photo;
 			sourceTree = "<group>";
 		};
 		E0048DB588950FD1416D0970 /* Frameworks */ = {
@@ -689,21 +754,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA519F020EB2FD000866210 /* ViewController.swift in Sources */,
+				5BA51A5F20EC777000866210 /* APIKey.swift in Sources */,
 				5BA51A3520EB339D00866210 /* CarRepairDetailViewController.swift in Sources */,
 				5BA51A3320EB339100866210 /* CarRepairListViewController.swift in Sources */,
+				5BA51A7620EC8E6000866210 /* ListType.swift in Sources */,
 				5BA51A4920EB348700866210 /* Alert.swift in Sources */,
 				5BA51A3820EB33BA00866210 /* GooglePlacesViewModel.swift in Sources */,
+				5BA51A7020EC8AFF00866210 /* Photo.swift in Sources */,
 				5BA51A4020EB33F800866210 /* UIView.swift in Sources */,
 				5BA51A3E20EB33EA00866210 /* GooglePlaces.swift in Sources */,
 				5BA51A4B20EB349800866210 /* Spinner.swift in Sources */,
 				5BA51A2620EB323F00866210 /* Request.swift in Sources */,
 				5BA51A4220EB340000866210 /* UIViewController.swift in Sources */,
+				5BA51A7420EC8DB700866210 /* PlusCode.swift in Sources */,
+				5BA51A6720EC85BE00866210 /* LatLng.swift in Sources */,
+				5BA51A6420EC836400866210 /* NavigationType.swift in Sources */,
+				5BA51A6B20EC878900866210 /* Geometry.swift in Sources */,
 				5BA51A4E20EB34CA00866210 /* APIURL.swift in Sources */,
+				5BA51A7220EC8B0B00866210 /* ListPhoto.swift in Sources */,
 				5BA51A3B20EB33D700866210 /* Protocols.swift in Sources */,
 				5BA519F620EB2FD000866210 /* Oficinas.xcdatamodeld in Sources */,
 				5BA51A3120EB338200866210 /* CustomViewController.swift in Sources */,
+				5BA51A6D20EC88FE00866210 /* OpeningHours.swift in Sources */,
+				5BA51A6920EC86E000866210 /* Viewport.swift in Sources */,
 				5BA51A5C20EB357800866210 /* GooglePlacesList.swift in Sources */,
 				5BA51A4520EB343300866210 /* GeneratorURL.swift in Sources */,
+				5BA51A6120EC828F00866210 /* UIImage+Kingfisher.swift in Sources */,
 				5BA519EE20EB2FD000866210 /* AppDelegate.swift in Sources */,
 				5BA51A2920EB32C400866210 /* GooglePlacesManager.swift in Sources */,
 			);

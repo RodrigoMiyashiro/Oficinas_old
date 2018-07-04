@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import SwiftyJSON
+
+protocol ListControl: class
+{
+    func parseJSON(arrayJson: [JSON])
+}
