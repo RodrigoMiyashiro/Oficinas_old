@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		475A9724479F7E117A01FD87 /* Pods_OficinasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E4E466E9C6189FA5A31209 /* Pods_OficinasTests.framework */; };
+		5B3974F020EDD21200BA8C96 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3974EF20EDD21200BA8C96 /* ErrorManager.swift */; };
+		5B3974F320EDD23400BA8C96 /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3974F220EDD23400BA8C96 /* ErrorType.swift */; };
 		5BA519EE20EB2FD000866210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA519ED20EB2FD000866210 /* AppDelegate.swift */; };
 		5BA519F020EB2FD000866210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA519EF20EB2FD000866210 /* ViewController.swift */; };
 		5BA519F320EB2FD000866210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA519F120EB2FD000866210 /* Main.storyboard */; };
@@ -72,6 +74,8 @@
 
 /* Begin PBXFileReference section */
 		51EE15C1D756CA8FCDB86E0D /* Pods-Oficinas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oficinas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oficinas/Pods-Oficinas.release.xcconfig"; sourceTree = "<group>"; };
+		5B3974EF20EDD21200BA8C96 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		5B3974F220EDD23400BA8C96 /* ErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
 		5BA519EA20EB2FD000866210 /* Oficinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oficinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA519ED20EB2FD000866210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA519EF20EB2FD000866210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,6 +172,22 @@
 				FCF470E78513C2512B324A69 /* Pods-OficinasUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B3974EE20EDD20000BA8C96 /* Error Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5B3974EF20EDD21200BA8C96 /* ErrorManager.swift */,
+			);
+			path = "Error Manager";
+			sourceTree = "<group>";
+		};
+		5B3974F120EDD22B00BA8C96 /* Error Type */ = {
+			isa = PBXGroup;
+			children = (
+				5B3974F220EDD23400BA8C96 /* ErrorType.swift */,
+			);
+			path = "Error Type";
 			sourceTree = "<group>";
 		};
 		5BA519E120EB2FD000866210 = {
@@ -278,6 +298,7 @@
 		5BA51A2220EB31C700866210 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5B3974EE20EDD20000BA8C96 /* Error Manager */,
 				5BA51A4720EB347200866210 /* Alert */,
 				5BA51A4620EB346900866210 /* Spinner */,
 				5BA51A4320EB341400866210 /* Generate URL */,
@@ -290,6 +311,7 @@
 		5BA51A2320EB31EC00866210 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				5B3974F120EDD22B00BA8C96 /* Error Type */,
 				5BA51A6220EC834400866210 /* Navigation Type */,
 				5BA51A5D20EC776000866210 /* API Key */,
 				5BA51A4C20EB34AF00866210 /* API_URL */,
@@ -766,6 +788,7 @@
 				5BA51A4B20EB349800866210 /* Spinner.swift in Sources */,
 				5BA51A2620EB323F00866210 /* Request.swift in Sources */,
 				5BA51A4220EB340000866210 /* UIViewController.swift in Sources */,
+				5B3974F320EDD23400BA8C96 /* ErrorType.swift in Sources */,
 				5BA51A7420EC8DB700866210 /* PlusCode.swift in Sources */,
 				5BA51A6720EC85BE00866210 /* LatLng.swift in Sources */,
 				5BA51A6420EC836400866210 /* NavigationType.swift in Sources */,
@@ -777,6 +800,7 @@
 				5BA51A3120EB338200866210 /* CustomViewController.swift in Sources */,
 				5BA51A6D20EC88FE00866210 /* OpeningHours.swift in Sources */,
 				5BA51A6920EC86E000866210 /* Viewport.swift in Sources */,
+				5B3974F020EDD21200BA8C96 /* ErrorManager.swift in Sources */,
 				5BA51A5C20EB357800866210 /* GooglePlacesList.swift in Sources */,
 				5BA51A4520EB343300866210 /* GeneratorURL.swift in Sources */,
 				5BA51A6120EC828F00866210 /* UIImage+Kingfisher.swift in Sources */,
