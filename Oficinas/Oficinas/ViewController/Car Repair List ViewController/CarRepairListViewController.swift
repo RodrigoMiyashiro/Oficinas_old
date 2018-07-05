@@ -8,18 +8,26 @@
 
 import UIKit
 
-class CarRepairListViewController: UIViewController {
-
-    override func viewDidLoad() {
+class CarRepairListViewController: CustomViewController
+{
+    // MARK: - Lets and Vars
+    
+    
+    
+    // MARK: - IBOutlets
+    @IBOutlet weak var placeTableView: UITableView!
+    
+    
+    
+    // MARK: - Life Cycle
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        placeTableView.tableFooterView = UIView()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
     
 
     /*
@@ -32,4 +40,31 @@ class CarRepairListViewController: UIViewController {
     }
     */
 
+}
+
+
+extension CarRepairListViewController: UITableViewDataSource
+{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell = placeTableView.dequeueReusableCell(withIdentifier: CellIdentifier.carRepairCell.rawValue, for: indexPath) as! CarRepairListTableViewCell
+        
+        return cell
+    }
+}
+
+
+extension CarRepairListViewController: UITableViewDelegate
+{
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        placeTableView.deselectRow(at: indexPath, animated: true)
+        
+        self.performSegue(withIdentifier: Segue.showCarRepairDetail.rawValue, sender: nil)
+    }
 }

@@ -52,6 +52,9 @@
 		5BA51A7420EC8DB700866210 /* PlusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A7320EC8DB700866210 /* PlusCode.swift */; };
 		5BA51A7620EC8E6000866210 /* ListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A7520EC8E6000866210 /* ListType.swift */; };
 		5CC2B82442117935AD5485C2 /* Pods_Oficinas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C84B7CDAC80B67F4884AA /* Pods_Oficinas.framework */; };
+		6D28E94920EE819C005F0A1D /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28E94820EE819C005F0A1D /* Segue.swift */; };
+		6D28E94B20EE86E2005F0A1D /* CarRepairListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28E94A20EE86E2005F0A1D /* CarRepairListTableViewCell.swift */; };
+		6D28E94E20EE8710005F0A1D /* CellIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28E94D20EE8710005F0A1D /* CellIdentifier.swift */; };
 		EB52CE2AE6CF2040302ABAA1 /* Pods_OficinasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD2F1CF14CF2994130A515F /* Pods_OficinasUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +126,9 @@
 		5BA51A7120EC8B0B00866210 /* ListPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPhoto.swift; sourceTree = "<group>"; };
 		5BA51A7320EC8DB700866210 /* PlusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCode.swift; sourceTree = "<group>"; };
 		5BA51A7520EC8E6000866210 /* ListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListType.swift; sourceTree = "<group>"; };
+		6D28E94820EE819C005F0A1D /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
+		6D28E94A20EE86E2005F0A1D /* CarRepairListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairListTableViewCell.swift; sourceTree = "<group>"; };
+		6D28E94D20EE8710005F0A1D /* CellIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
 		716C84B7CDAC80B67F4884AA /* Pods_Oficinas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oficinas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F123F25F27A6A717A5958E /* Pods-Oficinas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oficinas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oficinas/Pods-Oficinas.debug.xcconfig"; sourceTree = "<group>"; };
 		765BA23169D62D92413F5170 /* Pods-OficinasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OficinasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OficinasUITests/Pods-OficinasUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -311,6 +317,8 @@
 		5BA51A2320EB31EC00866210 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				6D28E94C20EE86FE005F0A1D /* Cell Identifier */,
+				6D28E94720EE818E005F0A1D /* Segue */,
 				5B3974F120EDD22B00BA8C96 /* Error Type */,
 				5BA51A6220EC834400866210 /* Navigation Type */,
 				5BA51A5D20EC776000866210 /* API Key */,
@@ -356,6 +364,7 @@
 			isa = PBXGroup;
 			children = (
 				5BA51A3220EB339100866210 /* CarRepairListViewController.swift */,
+				6D28E94A20EE86E2005F0A1D /* CarRepairListTableViewCell.swift */,
 			);
 			path = "Car Repair List ViewController";
 			sourceTree = "<group>";
@@ -461,6 +470,22 @@
 				5BA51A7120EC8B0B00866210 /* ListPhoto.swift */,
 			);
 			path = Photo;
+			sourceTree = "<group>";
+		};
+		6D28E94720EE818E005F0A1D /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				6D28E94820EE819C005F0A1D /* Segue.swift */,
+			);
+			path = Segue;
+			sourceTree = "<group>";
+		};
+		6D28E94C20EE86FE005F0A1D /* Cell Identifier */ = {
+			isa = PBXGroup;
+			children = (
+				6D28E94D20EE8710005F0A1D /* CellIdentifier.swift */,
+			);
+			path = "Cell Identifier";
 			sourceTree = "<group>";
 		};
 		E0048DB588950FD1416D0970 /* Frameworks */ = {
@@ -775,7 +800,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D28E94E20EE8710005F0A1D /* CellIdentifier.swift in Sources */,
 				5BA519F020EB2FD000866210 /* ViewController.swift in Sources */,
+				6D28E94B20EE86E2005F0A1D /* CarRepairListTableViewCell.swift in Sources */,
 				5BA51A5F20EC777000866210 /* APIKey.swift in Sources */,
 				5BA51A3520EB339D00866210 /* CarRepairDetailViewController.swift in Sources */,
 				5BA51A3320EB339100866210 /* CarRepairListViewController.swift in Sources */,
@@ -798,6 +825,7 @@
 				5BA51A3B20EB33D700866210 /* Protocols.swift in Sources */,
 				5BA519F620EB2FD000866210 /* Oficinas.xcdatamodeld in Sources */,
 				5BA51A3120EB338200866210 /* CustomViewController.swift in Sources */,
+				6D28E94920EE819C005F0A1D /* Segue.swift in Sources */,
 				5BA51A6D20EC88FE00866210 /* OpeningHours.swift in Sources */,
 				5BA51A6920EC86E000866210 /* Viewport.swift in Sources */,
 				5B3974F020EDD21200BA8C96 /* ErrorManager.swift in Sources */,

@@ -21,6 +21,7 @@ enum ExtensionURL: String
     case place = "/place"
     case nearbysearch = "/nearbysearch"
     case json = "/json"
+    case photo = "/photo"
     
     case bar = "/"
     case questionMark = "?"
@@ -33,17 +34,25 @@ enum ParameterURL: String
     case radius = "radius="
     case types = "types="
     case key = "key="
+    case maxwidth = "maxwidth="
+    case photoreference = "photoreference="
 }
 
 
 enum TypeURL: String
 {
     case googlePlaces
+    case photo
 }
 
 enum RadiusSearch: String
 {
     case halfAKilometer = "500"
+}
+
+enum PhotoSize: String
+{
+    case fourHundred = "400"
 }
 
 enum TypeSearchPlace: String
