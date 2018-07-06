@@ -18,7 +18,10 @@ class GenerateURL: NSObject
         {
         case .googlePlaces:
             url = "\(BaseURL.url.rawValue)\(ExtensionURL.maps.rawValue)\(ExtensionURL.api.rawValue)\(ExtensionURL.place.rawValue)\(ExtensionURL.nearbysearch.rawValue)\(ExtensionURL.json.rawValue)\(ExtensionURL.questionMark.rawValue)\(ParameterURL.location.rawValue)\(location ?? "")\(ExtensionURL.concat.rawValue)\(ParameterURL.radius.rawValue)\(RadiusSearch.halfAKilometer.rawValue)\(ExtensionURL.concat.rawValue)\(ParameterURL.types.rawValue)\(TypeSearchPlace.carRepair.rawValue)\(ExtensionURL.concat.rawValue)\(ParameterURL.key.rawValue)\(APIKey.googlePlacesKey.rawValue)"
-   
+
+        case .googlePlaceDetail:
+            url = "\(BaseURL.url.rawValue)\(ExtensionURL.maps.rawValue)\(ExtensionURL.api.rawValue)\(ExtensionURL.place.rawValue)\(ExtensionURL.detail.rawValue)\(ExtensionURL.json.rawValue)\(ExtensionURL.questionMark.rawValue)\(ParameterURL.placeid.rawValue)\(location ?? "")\(ExtensionURL.concat.rawValue)\(ParameterURL.fields.rawValue)\(ParameterURL.listOptionFields.rawValue)\(ExtensionURL.concat.rawValue)\(ParameterURL.key.rawValue)\(APIKey.googlePlacesKey.rawValue)"
+            
         case .photo:
             url = "\(BaseURL.url.rawValue)\(ExtensionURL.maps.rawValue)\(ExtensionURL.api.rawValue)\(ExtensionURL.place.rawValue)\(ExtensionURL.photo.rawValue)\(ExtensionURL.questionMark.rawValue)\(ParameterURL.maxwidth.rawValue)\(PhotoSize.fourHundred.rawValue)\(ExtensionURL.concat.rawValue)\(ParameterURL.photoreference.rawValue)\(location ?? "")\(ExtensionURL.concat.rawValue)\(ParameterURL.key.rawValue)\(APIKey.googlePlacesKey.rawValue)"
         }

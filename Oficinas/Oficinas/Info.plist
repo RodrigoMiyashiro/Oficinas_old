@@ -41,5 +41,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Este aplicativo necessita da sua localização para localizar as lojas próximas a você.</string>
+    
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Este aplicativo necessita da sua localização para um melhor funcionamento.</string>
 </dict>
 </plist>

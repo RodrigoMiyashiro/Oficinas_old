@@ -38,6 +38,8 @@ protocol RequestElementURL: class
 
 protocol SingleElement: InitializerProtocol, RequestElement { }
 
+protocol SingleElementWithParameter: InitializerProtocol, RequestElementURL { }
+
 protocol ListElementsProtocol: InitializerProtocol, Countable, RequestElement { }
 
 protocol ListParamURLProtocol: InitializerProtocol, Countable, RequestElementURL { }

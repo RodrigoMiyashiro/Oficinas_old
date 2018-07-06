@@ -19,6 +19,7 @@ enum ExtensionURL: String
     case maps = "/maps"
     case api = "/api"
     case place = "/place"
+    case detail = "/details"
     case nearbysearch = "/nearbysearch"
     case json = "/json"
     case photo = "/photo"
@@ -36,12 +37,16 @@ enum ParameterURL: String
     case key = "key="
     case maxwidth = "maxwidth="
     case photoreference = "photoreference="
+    case placeid = "placeid="
+    case fields = "fields="
+    case listOptionFields = "rating,id,opening_hours,photos,place_id,reference,reviews,website,formatted_address,formatted_phone_number,geometry"
 }
 
 
 enum TypeURL: String
 {
     case googlePlaces
+    case googlePlaceDetail
     case photo
 }
 

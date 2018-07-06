@@ -29,5 +29,24 @@ class GooglePlaceManager: NSObject
             }
         }
     }
+    
+    static func getPlaceDetail(withURL url: String, completion: @escaping(DetailPlace?, Any?) -> Void)
+    {
+        Request.getFrom(url) { (result, error) in
+            if let data = result as? Data
+            {
+                let place = DetailPlace(dataJSON: JSON(data))
+                completion(place, nil)
+            }
+            else if let error = error
+            {
+                completion(nil, error)
+            }
+            else
+            {
+                completion(nil, ErrorManager.error(type: .unknown))
+            }
+        }
+    }
 }
 

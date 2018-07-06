@@ -35,4 +35,22 @@ extension UIViewController
         self.title = title
     }
 
+    
+    // MARK: - Call
+    func makeCall(number: String)
+    {
+        let numberClear = number.clearPhoneNumber
+        
+        if let url = URL(string: "tel://\(numberClear)"), UIApplication.shared.canOpenURL(url)
+        {
+            if #available(iOS 10, *)
+            {
+                UIApplication.shared.open(url)
+            }
+            else
+            {
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
 }
