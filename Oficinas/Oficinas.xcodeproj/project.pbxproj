@@ -63,6 +63,10 @@
 		5BA51A7220EC8B0B00866210 /* ListPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A7120EC8B0B00866210 /* ListPhoto.swift */; };
 		5BA51A7420EC8DB700866210 /* PlusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A7320EC8DB700866210 /* PlusCode.swift */; };
 		5BA51A7620EC8E6000866210 /* ListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A7520EC8E6000866210 /* ListType.swift */; };
+		5BB1A11B20F10584000B01AA /* UIViewController+TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1A11A20F10584000B01AA /* UIViewController+TapGesture.swift */; };
+		5BB1A12020F10CEB000B01AA /* TypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1A11F20F10CEB000B01AA /* TypeDestination.swift */; };
+		5BB1A12320F11183000B01AA /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1A12220F11183000B01AA /* ReviewsViewController.swift */; };
+		5BB1A12520F11246000B01AA /* ReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1A12420F11246000B01AA /* ReviewsTableViewCell.swift */; };
 		5CC2B82442117935AD5485C2 /* Pods_Oficinas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C84B7CDAC80B67F4884AA /* Pods_Oficinas.framework */; };
 		6D28E94920EE819C005F0A1D /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28E94820EE819C005F0A1D /* Segue.swift */; };
 		6D28E94B20EE86E2005F0A1D /* CarRepairListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28E94A20EE86E2005F0A1D /* CarRepairListTableViewCell.swift */; };
@@ -150,6 +154,10 @@
 		5BA51A7120EC8B0B00866210 /* ListPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPhoto.swift; sourceTree = "<group>"; };
 		5BA51A7320EC8DB700866210 /* PlusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCode.swift; sourceTree = "<group>"; };
 		5BA51A7520EC8E6000866210 /* ListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListType.swift; sourceTree = "<group>"; };
+		5BB1A11A20F10584000B01AA /* UIViewController+TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TapGesture.swift"; sourceTree = "<group>"; };
+		5BB1A11F20F10CEB000B01AA /* TypeDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeDestination.swift; sourceTree = "<group>"; };
+		5BB1A12220F11183000B01AA /* ReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
+		5BB1A12420F11246000B01AA /* ReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewCell.swift; sourceTree = "<group>"; };
 		6D28E94820EE819C005F0A1D /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
 		6D28E94A20EE86E2005F0A1D /* CarRepairListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairListTableViewCell.swift; sourceTree = "<group>"; };
 		6D28E94D20EE8710005F0A1D /* CellIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
@@ -345,6 +353,7 @@
 				5BA51A2F20EB336700866210 /* Custom ViewController */,
 				5BA51A2E20EB335400866210 /* Car Repair List ViewController */,
 				5BA51A2D20EB334600866210 /* Car Repair Detail ViewController */,
+				5BB1A12120F11164000B01AA /* Reviews ViewController */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -376,6 +385,7 @@
 				5B39750B20EF188500BA8C96 /* UIColor.swift */,
 				5B39751020EF3B5F00BA8C96 /* String.swift */,
 				5BA51A4120EB340000866210 /* UIViewController.swift */,
+				5BB1A11A20F10584000B01AA /* UIViewController+TapGesture.swift */,
 				5BA51A6020EC828F00866210 /* UIImage+Kingfisher.swift */,
 			);
 			path = Extension;
@@ -397,6 +407,7 @@
 		5BA51A2320EB31EC00866210 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				5BB1A11E20F10CDE000B01AA /* Type Destination */,
 				5B39750620EF171B00BA8C96 /* Radius */,
 				5B3974F420EEF6E600BA8C96 /* Images */,
 				6D28E94C20EE86FE005F0A1D /* Cell Identifier */,
@@ -554,6 +565,23 @@
 				5BA51A7120EC8B0B00866210 /* ListPhoto.swift */,
 			);
 			path = Photo;
+			sourceTree = "<group>";
+		};
+		5BB1A11E20F10CDE000B01AA /* Type Destination */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1A11F20F10CEB000B01AA /* TypeDestination.swift */,
+			);
+			path = "Type Destination";
+			sourceTree = "<group>";
+		};
+		5BB1A12120F11164000B01AA /* Reviews ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1A12220F11183000B01AA /* ReviewsViewController.swift */,
+				5BB1A12420F11246000B01AA /* ReviewsTableViewCell.swift */,
+			);
+			path = "Reviews ViewController";
 			sourceTree = "<group>";
 		};
 		6D28E94720EE818E005F0A1D /* Segue */ = {
@@ -884,6 +912,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB1A11B20F10584000B01AA /* UIViewController+TapGesture.swift in Sources */,
 				6D28E94E20EE8710005F0A1D /* CellIdentifier.swift in Sources */,
 				5BA519F020EB2FD000866210 /* ViewController.swift in Sources */,
 				5B39751120EF3B5F00BA8C96 /* String.swift in Sources */,
@@ -903,6 +932,7 @@
 				5B3974F620EEF6F400BA8C96 /* Image.swift in Sources */,
 				5BA51A4220EB340000866210 /* UIViewController.swift in Sources */,
 				5B3974F320EDD23400BA8C96 /* ErrorType.swift in Sources */,
+				5BB1A12020F10CEB000B01AA /* TypeDestination.swift in Sources */,
 				5B3974FE20EF03B400BA8C96 /* DayTime.swift in Sources */,
 				5BA51A7420EC8DB700866210 /* PlusCode.swift in Sources */,
 				5BA51A6720EC85BE00866210 /* LatLng.swift in Sources */,
@@ -913,6 +943,7 @@
 				5BA51A4E20EB34CA00866210 /* APIURL.swift in Sources */,
 				5BA51A7220EC8B0B00866210 /* ListPhoto.swift in Sources */,
 				5BA51A3B20EB33D700866210 /* Protocols.swift in Sources */,
+				5BB1A12520F11246000B01AA /* ReviewsTableViewCell.swift in Sources */,
 				5BA519F620EB2FD000866210 /* Oficinas.xcdatamodeld in Sources */,
 				5B39750020EF03C900BA8C96 /* ListPeriods.swift in Sources */,
 				5B39750C20EF188500BA8C96 /* UIColor.swift in Sources */,
@@ -921,6 +952,7 @@
 				6D28E94920EE819C005F0A1D /* Segue.swift in Sources */,
 				5BA51A6D20EC88FE00866210 /* OpeningHours.swift in Sources */,
 				5BA51A6920EC86E000866210 /* Viewport.swift in Sources */,
+				5BB1A12320F11183000B01AA /* ReviewsViewController.swift in Sources */,
 				5B3974F020EDD21200BA8C96 /* ErrorManager.swift in Sources */,
 				5B39750A20EF183600BA8C96 /* UIButton.swift in Sources */,
 				5BA51A5C20EB357800866210 /* GooglePlacesList.swift in Sources */,

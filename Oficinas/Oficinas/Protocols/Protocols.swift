@@ -34,6 +34,11 @@ protocol RequestElementURL: class
     func request(withURL url: String, completion: @escaping(Error?) -> Void)
 }
 
+protocol RequestElementWithLatLng: class
+{
+    func request(withLatLng lat: String, _ lng: String, completion: @escaping(Error?) -> Void)
+}
+
 
 
 protocol SingleElement: InitializerProtocol, RequestElement { }
@@ -43,3 +48,5 @@ protocol SingleElementWithParameter: InitializerProtocol, RequestElementURL { }
 protocol ListElementsProtocol: InitializerProtocol, Countable, RequestElement { }
 
 protocol ListParamURLProtocol: InitializerProtocol, Countable, RequestElementURL { }
+
+protocol ListParamtersProtocol: InitializerProtocol, Countable, RequestElementWithLatLng { }

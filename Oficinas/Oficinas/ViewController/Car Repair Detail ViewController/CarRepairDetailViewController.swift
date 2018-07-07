@@ -22,6 +22,8 @@ class CarRepairDetailViewController: CustomViewController
             detailPlaceViewModel?.detailPlaceDidChange = { [weak self] viewModel in
                 
                 self?.loadData()
+                self?.tapGestureToCall()
+                self?.tapGestureToSafariVC()
                 Spinner.shared.stopAnimating()
             }
         }
@@ -52,7 +54,6 @@ class CarRepairDetailViewController: CustomViewController
         configMapView()
         configBackgroundOpeningHoursView()
         configButton()
-        tapGestureToCall()
         
         self.set(title: "Detalhe")
         
@@ -112,16 +113,13 @@ class CarRepairDetailViewController: CustomViewController
     // MARK: - Tap Gesture
     func tapGestureToCall()
     {
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(calling))
-        phoneLabel.addGestureRecognizer(tapGesture)
+        self.configGestureView(view: phoneLabel, destination: .call, value: detailPlaceViewModel?.detailPlace?.formattedPhoneNumber ?? "")
     }
     
-    @objc func calling()
+    func tapGestureToSafariVC()
     {
-        print("tapped \(detailPlaceViewModel?.detailPlace?.formattedPhoneNumber ?? "")")
-        self.makeCall(number: detailPlaceViewModel?.detailPlace?.formattedPhoneNumber ?? "")
+        self.configGestureView(view: siteLabel, destination: .safari, value: detailPlaceViewModel?.detailPlace?.website ?? "")
     }
-    
     
     
     // MARK: - Request
@@ -140,7 +138,22 @@ class CarRepairDetailViewController: CustomViewController
     // MARK: - IBAction
     @IBAction func showReviews(_ sender: UIButton)
     {
-        
+        self.performSegue(withIdentifier: Segue.openReviews.rawValue, sender: detailPlaceViewModel?.detailPlace?.reviews)
+    }
+    
+    
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == Segue.openReviews.rawValue
+        {
+            let destination = segue.destination as! ReviewsViewController
+            
+            if let reviews = sender as? ListReviews
+            {
+                destination.reviews = reviews
+            }
+        }
     }
     
 }

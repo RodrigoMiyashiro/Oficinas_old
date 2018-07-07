@@ -7,16 +7,22 @@
 //
 
 import UIKit
+import CoreLocation
+import UIScrollView_InfiniteScroll
 
 class CarRepairListViewController: CustomViewController
 {
     // MARK: - Lets and Vars
+    let locationManager = CLLocationManager()
+    var currentLat: String?
+    var currentLng: String?
     var placesViewModel: GooglePlacesViewModel?
     {
         didSet
         {
             placesViewModel?.placesDidChanged = { [weak self] viewModel in
                 self?.placeTableView.reloadData()
+                self?.refreshControl.endRefreshing()
                 Spinner.shared.stopAnimating()
             }
         }
@@ -38,17 +44,48 @@ class CarRepairListViewController: CustomViewController
         
         self.set(title: "Oficinas Mecânicas")
         
-        loadPlaces()
+        getLocation()
+        
+        configPullToRefresh(object: placeTableView)
     }
 
     
+    // MARK: - Configuration
+    private func getLocation()
+    {
+        self.locationManager.requestAlwaysAuthorization()
+        self.locationManager.requestWhenInUseAuthorization()
+        
+        if CLLocationManager.locationServicesEnabled()
+        {
+            locationManager.delegate = self
+//            locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.requestAlwaysAuthorization()
+            locationManager.startUpdatingLocation()
+        }
+    }
+    
     
     // MARK: - Request
-    func loadPlaces()
+    override func refresh()
     {
-        Spinner.shared.show(view: self.view)
-     
-        placesViewModel?.request(completion: { (error) in
+        loadPlaces(lat: currentLat ?? "", lng: currentLng ?? "")
+    }
+    
+//    func infinityScroll()
+//    {
+//        placeTableView.addInfiniteScroll { (tableView) in
+//            if self.placesViewModel?.places?.nextPageToken
+//        }
+//    }
+    
+    func loadPlaces(lat: String, lng: String)
+    {
+        locationManager.stopUpdatingLocation()
+//        Spinner.shared.show(view: self.view)
+        
+        placesViewModel?.request(withLatLng: lat, lng, completion: { (error) in
             Spinner.shared.stopAnimating()
             self.setNavigationType(.present, viewController: Alert.show(message: error?.localizedDescription))
         })
@@ -68,6 +105,22 @@ class CarRepairListViewController: CustomViewController
             }
         }
     }
+}
+
+
+extension CarRepairListViewController: CLLocationManagerDelegate
+{
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
+    {
+        guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
+        print("locations = \(locValue.latitude) \(locValue.longitude)")
+        
+        self.currentLat = String(locValue.latitude)
+        self.currentLng = String(locValue.longitude)
+        self.refresh()
+    }
+    
+    
 }
 
 

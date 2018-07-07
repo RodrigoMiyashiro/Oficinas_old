@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol GooglePlacesViewModelProtocol: ListElementsProtocol
+protocol GooglePlacesViewModelProtocol: ListParamtersProtocol
 {
     var places: GooglePlacesList? { get }
     var placesDidChanged: ((GooglePlacesViewModelProtocol) -> Void)? { get set }
@@ -39,9 +39,9 @@ class GooglePlacesViewModel: GooglePlacesViewModelProtocol
 
 extension GooglePlacesViewModel
 {
-    func request(completion: @escaping (Error?) -> Void)
+    func request(withLatLng lat: String, _ lng: String, completion: @escaping (Error?) -> Void)
     {
-        let url = GenerateURL.get(type: .googlePlaces, location: "-23.580245,-46.638548")
+        let url = GenerateURL.get(type: .googlePlaces, location: "\(lat),\(lng)")
         
         GooglePlaceManager.getPlaces(withURL: url) { (places, error) in
             if let places = places

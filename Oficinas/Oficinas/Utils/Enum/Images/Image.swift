@@ -11,4 +11,5 @@ import Foundation
 enum Image: String
 {
     case placeholderStore = "ic_placeholder_store"
+    case placeholderUser = "ic_placeholder_user"
 }

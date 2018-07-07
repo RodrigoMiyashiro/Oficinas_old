@@ -11,4 +11,5 @@ import Foundation
 enum Segue: String
 {
     case showCarRepairDetail = "showCarRepairDetailSegue"
+    case openReviews = "openReviewsSegue"
 }

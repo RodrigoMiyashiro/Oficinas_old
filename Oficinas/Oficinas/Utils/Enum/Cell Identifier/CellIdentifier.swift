@@ -11,4 +11,5 @@ import Foundation
 enum CellIdentifier: String
 {
     case carRepairCell = "carRepairCell"
+    case reviewsCell = "reviewsCell"
 }
