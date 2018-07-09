@@ -46,23 +46,43 @@ class CarRepairListViewController: CustomViewController
         
         getLocation()
         
+        Spinner.shared.show(view: self.view)
         configPullToRefresh(object: placeTableView)
+        infinityScroll()
     }
 
     
     // MARK: - Configuration
     private func getLocation()
     {
-        self.locationManager.requestAlwaysAuthorization()
-        self.locationManager.requestWhenInUseAuthorization()
+        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
+        
+        print(CLLocationManager.authorizationStatus())
+        
+        
+        // TODO: - Open Alert to option change authorization status
+        if CLLocationManager.authorizationStatus() == CLAuthorizationStatus.denied || CLLocationManager.authorizationStatus() == .notDetermined
+        {
+            if let url = URL(string: UIApplicationOpenSettingsURLString)
+            {
+                UIApplication.shared.open(url)
+            }
+        }
         
         if CLLocationManager.locationServicesEnabled()
         {
             locationManager.delegate = self
-//            locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.desiredAccuracy = kCLLocationAccuracyBest
             locationManager.requestAlwaysAuthorization()
             locationManager.startUpdatingLocation()
+        }
+        else
+        {
+            if let url = URL(string: UIApplicationOpenSettingsURLString)
+            {
+                UIApplication.shared.open(url)
+            }
         }
     }
     
@@ -70,22 +90,26 @@ class CarRepairListViewController: CustomViewController
     // MARK: - Request
     override func refresh()
     {
-        loadPlaces(lat: currentLat ?? "", lng: currentLng ?? "")
+        placesViewModel?.places?.nextPageToken = ""
+        loadPlaces()
     }
     
-//    func infinityScroll()
-//    {
-//        placeTableView.addInfiniteScroll { (tableView) in
-//            if self.placesViewModel?.places?.nextPageToken
-//        }
-//    }
+    func infinityScroll()
+    {
+        placeTableView.addInfiniteScroll { (tableView) in
+            if self.placesViewModel?.places?.nextPageToken != ""
+            {
+                self.loadPlaces()
+            }
+            tableView.finishInfiniteScroll()
+        }
+    }
     
-    func loadPlaces(lat: String, lng: String)
+    func loadPlaces()
     {
         locationManager.stopUpdatingLocation()
-//        Spinner.shared.show(view: self.view)
         
-        placesViewModel?.request(withLatLng: lat, lng, completion: { (error) in
+        placesViewModel?.request(withLatLng: self.currentLat ?? "", self.currentLng ?? "", completion: { (error) in
             Spinner.shared.stopAnimating()
             self.setNavigationType(.present, viewController: Alert.show(message: error?.localizedDescription))
         })

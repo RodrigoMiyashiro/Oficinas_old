@@ -44,7 +44,7 @@
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>Este aplicativo necessita da sua localização para localizar as lojas próximas a você.</string>
     
-    <key>NSLocationAlwaysUsageDescription</key>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
     <string>Este aplicativo necessita da sua localização para um melhor funcionamento.</string>
 </dict>
 </plist>

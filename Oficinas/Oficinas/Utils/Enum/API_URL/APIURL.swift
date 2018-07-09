@@ -39,6 +39,7 @@ enum ParameterURL: String
     case photoreference = "photoreference="
     case placeid = "placeid="
     case fields = "fields="
+    case pageToken = "pagetoken="
     case listOptionFields = "rating,id,opening_hours,photos,place_id,reference,reviews,website,formatted_address,formatted_phone_number,geometry"
 }
 

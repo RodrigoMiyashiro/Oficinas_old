@@ -23,7 +23,6 @@
 		5B39750F20EF1B1200BA8C96 /* GooglePlacesDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39750E20EF1B1200BA8C96 /* GooglePlacesDetailViewModel.swift */; };
 		5B39751120EF3B5F00BA8C96 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39751020EF3B5F00BA8C96 /* String.swift */; };
 		5BA519EE20EB2FD000866210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA519ED20EB2FD000866210 /* AppDelegate.swift */; };
-		5BA519F020EB2FD000866210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA519EF20EB2FD000866210 /* ViewController.swift */; };
 		5BA519F320EB2FD000866210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA519F120EB2FD000866210 /* Main.storyboard */; };
 		5BA519F620EB2FD000866210 /* Oficinas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BA519F420EB2FD000866210 /* Oficinas.xcdatamodeld */; };
 		5BA519F820EB2FD400866210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA519F720EB2FD400866210 /* Assets.xcassets */; };
@@ -67,6 +66,22 @@
 		5BB1A12020F10CEB000B01AA /* TypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1A11F20F10CEB000B01AA /* TypeDestination.swift */; };
 		5BB1A12320F11183000B01AA /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1A12220F11183000B01AA /* ReviewsViewController.swift */; };
 		5BB1A12520F11246000B01AA /* ReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1A12420F11246000B01AA /* ReviewsTableViewCell.swift */; };
+		5BFA61CE20F3A12C00CEC1B8 /* GooglePlacesDetailViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61CD20F3A12C00CEC1B8 /* GooglePlacesDetailViewModelTest.swift */; };
+		5BFA61D020F3A14900CEC1B8 /* ReviewsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61CF20F3A14900CEC1B8 /* ReviewsViewControllerTest.swift */; };
+		5BFA61D220F3A25300CEC1B8 /* PhotoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61D120F3A25300CEC1B8 /* PhotoTest.swift */; };
+		5BFA61D420F3A25B00CEC1B8 /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61D320F3A25B00CEC1B8 /* PhotoList.swift */; };
+		5BFA61D620F3A27B00CEC1B8 /* LatLngTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61D520F3A27B00CEC1B8 /* LatLngTest.swift */; };
+		5BFA61D820F3A28B00CEC1B8 /* ViewportTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61D720F3A28B00CEC1B8 /* ViewportTest.swift */; };
+		5BFA61DA20F3A29A00CEC1B8 /* GeometryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61D920F3A29A00CEC1B8 /* GeometryTest.swift */; };
+		5BFA61DC20F3A2AE00CEC1B8 /* PlusCodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61DB20F3A2AE00CEC1B8 /* PlusCodeTest.swift */; };
+		5BFA61DE20F3A2BF00CEC1B8 /* ListTypeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61DD20F3A2BF00CEC1B8 /* ListTypeTest.swift */; };
+		5BFA61E020F3A2D000CEC1B8 /* ReviewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61DF20F3A2D000CEC1B8 /* ReviewTest.swift */; };
+		5BFA61E220F3A2DF00CEC1B8 /* ListReviewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61E120F3A2DF00CEC1B8 /* ListReviewTest.swift */; };
+		5BFA61E420F3A2F000CEC1B8 /* OpeningHoursTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61E320F3A2F000CEC1B8 /* OpeningHoursTest.swift */; };
+		5BFA61E620F3A30F00CEC1B8 /* ListPeriodTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61E520F3A30F00CEC1B8 /* ListPeriodTest.swift */; };
+		5BFA61E820F3A31D00CEC1B8 /* PeriodTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61E720F3A31D00CEC1B8 /* PeriodTest.swift */; };
+		5BFA61EA20F3A33000CEC1B8 /* DayTimeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61E920F3A33000CEC1B8 /* DayTimeTest.swift */; };
+		5BFA61EE20F3A38500CEC1B8 /* DetailPlaceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA61ED20F3A38500CEC1B8 /* DetailPlaceTest.swift */; };
 		5CC2B82442117935AD5485C2 /* Pods_Oficinas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C84B7CDAC80B67F4884AA /* Pods_Oficinas.framework */; };
 		6D28E94920EE819C005F0A1D /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28E94820EE819C005F0A1D /* Segue.swift */; };
 		6D28E94B20EE86E2005F0A1D /* CarRepairListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28E94A20EE86E2005F0A1D /* CarRepairListTableViewCell.swift */; };
@@ -109,7 +124,6 @@
 		5B39751020EF3B5F00BA8C96 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		5BA519EA20EB2FD000866210 /* Oficinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oficinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA519ED20EB2FD000866210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BA519EF20EB2FD000866210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BA519F220EB2FD000866210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BA519F520EB2FD000866210 /* Oficinas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Oficinas.xcdatamodel; sourceTree = "<group>"; };
 		5BA519F720EB2FD400866210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -158,6 +172,22 @@
 		5BB1A11F20F10CEB000B01AA /* TypeDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeDestination.swift; sourceTree = "<group>"; };
 		5BB1A12220F11183000B01AA /* ReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
 		5BB1A12420F11246000B01AA /* ReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewCell.swift; sourceTree = "<group>"; };
+		5BFA61CD20F3A12C00CEC1B8 /* GooglePlacesDetailViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesDetailViewModelTest.swift; sourceTree = "<group>"; };
+		5BFA61CF20F3A14900CEC1B8 /* ReviewsViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewControllerTest.swift; sourceTree = "<group>"; };
+		5BFA61D120F3A25300CEC1B8 /* PhotoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTest.swift; sourceTree = "<group>"; };
+		5BFA61D320F3A25B00CEC1B8 /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
+		5BFA61D520F3A27B00CEC1B8 /* LatLngTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatLngTest.swift; sourceTree = "<group>"; };
+		5BFA61D720F3A28B00CEC1B8 /* ViewportTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewportTest.swift; sourceTree = "<group>"; };
+		5BFA61D920F3A29A00CEC1B8 /* GeometryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryTest.swift; sourceTree = "<group>"; };
+		5BFA61DB20F3A2AE00CEC1B8 /* PlusCodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCodeTest.swift; sourceTree = "<group>"; };
+		5BFA61DD20F3A2BF00CEC1B8 /* ListTypeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTypeTest.swift; sourceTree = "<group>"; };
+		5BFA61DF20F3A2D000CEC1B8 /* ReviewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTest.swift; sourceTree = "<group>"; };
+		5BFA61E120F3A2DF00CEC1B8 /* ListReviewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListReviewTest.swift; sourceTree = "<group>"; };
+		5BFA61E320F3A2F000CEC1B8 /* OpeningHoursTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHoursTest.swift; sourceTree = "<group>"; };
+		5BFA61E520F3A30F00CEC1B8 /* ListPeriodTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPeriodTest.swift; sourceTree = "<group>"; };
+		5BFA61E720F3A31D00CEC1B8 /* PeriodTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodTest.swift; sourceTree = "<group>"; };
+		5BFA61E920F3A33000CEC1B8 /* DayTimeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTimeTest.swift; sourceTree = "<group>"; };
+		5BFA61ED20F3A38500CEC1B8 /* DetailPlaceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlaceTest.swift; sourceTree = "<group>"; };
 		6D28E94820EE819C005F0A1D /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
 		6D28E94A20EE86E2005F0A1D /* CarRepairListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairListTableViewCell.swift; sourceTree = "<group>"; };
 		6D28E94D20EE8710005F0A1D /* CellIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
@@ -306,7 +336,6 @@
 			isa = PBXGroup;
 			children = (
 				5BA519ED20EB2FD000866210 /* AppDelegate.swift */,
-				5BA519EF20EB2FD000866210 /* ViewController.swift */,
 				5BA51A2220EB31C700866210 /* Utils */,
 				5BA51A2120EB31C500866210 /* Extension */,
 				5BA51A2420EB322B00866210 /* Request */,
@@ -327,12 +356,28 @@
 			isa = PBXGroup;
 			children = (
 				5BA51A0520EB2FD400866210 /* OficinasTests.swift */,
+				5BFA61D120F3A25300CEC1B8 /* PhotoTest.swift */,
+				5BFA61D320F3A25B00CEC1B8 /* PhotoList.swift */,
+				5BFA61D520F3A27B00CEC1B8 /* LatLngTest.swift */,
+				5BFA61D720F3A28B00CEC1B8 /* ViewportTest.swift */,
+				5BFA61D920F3A29A00CEC1B8 /* GeometryTest.swift */,
+				5BFA61DB20F3A2AE00CEC1B8 /* PlusCodeTest.swift */,
+				5BFA61DD20F3A2BF00CEC1B8 /* ListTypeTest.swift */,
+				5BFA61DF20F3A2D000CEC1B8 /* ReviewTest.swift */,
+				5BFA61E120F3A2DF00CEC1B8 /* ListReviewTest.swift */,
+				5BFA61E320F3A2F000CEC1B8 /* OpeningHoursTest.swift */,
+				5BFA61E520F3A30F00CEC1B8 /* ListPeriodTest.swift */,
+				5BFA61E720F3A31D00CEC1B8 /* PeriodTest.swift */,
+				5BFA61E920F3A33000CEC1B8 /* DayTimeTest.swift */,
 				5BA51A4F20EB351600866210 /* GooglePlacesTest.swift */,
 				5BA51A5920EB356700866210 /* GooglePlacesListTest.swift */,
+				5BFA61ED20F3A38500CEC1B8 /* DetailPlaceTest.swift */,
 				5BA51A5120EB352E00866210 /* GooglePlacesViewModel.swift */,
+				5BFA61CD20F3A12C00CEC1B8 /* GooglePlacesDetailViewModelTest.swift */,
 				5BA51A5720EB355700866210 /* CustomViewControllerTest.swift */,
 				5BA51A5320EB353F00866210 /* CarRepairListViewControllerTest.swift */,
 				5BA51A5520EB354A00866210 /* CarRepairDetailViewControllerTest.swift */,
+				5BFA61CF20F3A14900CEC1B8 /* ReviewsViewControllerTest.swift */,
 				5BA51A0720EB2FD400866210 /* Info.plist */,
 			);
 			path = OficinasTests;
@@ -914,7 +959,6 @@
 			files = (
 				5BB1A11B20F10584000B01AA /* UIViewController+TapGesture.swift in Sources */,
 				6D28E94E20EE8710005F0A1D /* CellIdentifier.swift in Sources */,
-				5BA519F020EB2FD000866210 /* ViewController.swift in Sources */,
 				5B39751120EF3B5F00BA8C96 /* String.swift in Sources */,
 				6D28E94B20EE86E2005F0A1D /* CarRepairListTableViewCell.swift in Sources */,
 				5BA51A5F20EC777000866210 /* APIKey.swift in Sources */,
@@ -969,12 +1013,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFA61D420F3A25B00CEC1B8 /* PhotoList.swift in Sources */,
+				5BFA61EA20F3A33000CEC1B8 /* DayTimeTest.swift in Sources */,
 				5BA51A5A20EB356700866210 /* GooglePlacesListTest.swift in Sources */,
 				5BA51A5420EB353F00866210 /* CarRepairListViewControllerTest.swift in Sources */,
 				5BA51A5820EB355700866210 /* CustomViewControllerTest.swift in Sources */,
+				5BFA61DC20F3A2AE00CEC1B8 /* PlusCodeTest.swift in Sources */,
+				5BFA61E820F3A31D00CEC1B8 /* PeriodTest.swift in Sources */,
 				5BA51A5220EB352E00866210 /* GooglePlacesViewModel.swift in Sources */,
+				5BFA61CE20F3A12C00CEC1B8 /* GooglePlacesDetailViewModelTest.swift in Sources */,
+				5BFA61E420F3A2F000CEC1B8 /* OpeningHoursTest.swift in Sources */,
 				5BA51A5020EB351600866210 /* GooglePlacesTest.swift in Sources */,
+				5BFA61E020F3A2D000CEC1B8 /* ReviewTest.swift in Sources */,
+				5BFA61E620F3A30F00CEC1B8 /* ListPeriodTest.swift in Sources */,
+				5BFA61E220F3A2DF00CEC1B8 /* ListReviewTest.swift in Sources */,
+				5BFA61D020F3A14900CEC1B8 /* ReviewsViewControllerTest.swift in Sources */,
 				5BA51A5620EB354A00866210 /* CarRepairDetailViewControllerTest.swift in Sources */,
+				5BFA61D620F3A27B00CEC1B8 /* LatLngTest.swift in Sources */,
+				5BFA61EE20F3A38500CEC1B8 /* DetailPlaceTest.swift in Sources */,
+				5BFA61DE20F3A2BF00CEC1B8 /* ListTypeTest.swift in Sources */,
+				5BFA61D220F3A25300CEC1B8 /* PhotoTest.swift in Sources */,
+				5BFA61DA20F3A29A00CEC1B8 /* GeometryTest.swift in Sources */,
+				5BFA61D820F3A28B00CEC1B8 /* ViewportTest.swift in Sources */,
 				5BA51A0620EB2FD400866210 /* OficinasTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

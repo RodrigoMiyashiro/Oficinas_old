@@ -20,7 +20,7 @@ class CarRepairDetailViewController: CustomViewController
         didSet
         {
             detailPlaceViewModel?.detailPlaceDidChange = { [weak self] viewModel in
-                
+                self?.centerMapOnLocation()
                 self?.loadData()
                 self?.tapGestureToCall()
                 self?.tapGestureToSafariVC()
@@ -65,22 +65,38 @@ class CarRepairDetailViewController: CustomViewController
     // MARK: - Configurations
     private func configMapView()
     {
-        // For use in foreground
-        self.locationManager.requestWhenInUseAuthorization()
+//        // For use in foreground
+//        self.locationManager.requestWhenInUseAuthorization()
+//
+//        if CLLocationManager.locationServicesEnabled() {
+//            locationManager.delegate = self as? CLLocationManagerDelegate
+//            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+//            locationManager.startUpdatingLocation()
+//        }
+//
+//        if let coor = mapView.userLocation.location?.coordinate{
+//            mapView.setCenter(coor, animated: true)
+//        }
         
-        if CLLocationManager.locationServicesEnabled() {
-            locationManager.delegate = self as? CLLocationManagerDelegate
-            locationManager.desiredAccuracy = kCLLocationAccuracyBest
-            locationManager.startUpdatingLocation()
-        }
+//        centerMapOnLocation(location: initialLocation)
+    }
+    
+
+    let regionRadius: CLLocationDistance = 1000
+    func centerMapOnLocation()
+    {
+        let location = CLLocation(latitude: detailPlaceViewModel?.detailPlace?.geometry.location.lat ?? LatLng().lat/*21.282778*/, longitude: detailPlaceViewModel?.detailPlace?.geometry.location.lng  ?? LatLng().lng /*-157.829444*/)
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
+                                                                  regionRadius, regionRadius)
         
-        mapView.mapType = .standard
-        mapView.isZoomEnabled = true
-        mapView.isScrollEnabled = true
-        
-        if let coor = mapView.userLocation.location?.coordinate{
-            mapView.setCenter(coor, animated: true)
-        }
+//        let artwork = mkpoin(title: "King David Kalakaua",
+//                              locationName: "Waikiki Gateway Park",
+//                              discipline: "Sculpture",
+//                              coordinate: CLLocationCoordinate2D(latitude: detailPlaceViewModel?.detailPlace?.geometry.location.lat ?? LatLng().lat, longitude: detailPlaceViewModel?.detailPlace?.geometry.location.lng  ?? LatLng().lng))
+        let artwork = MKPointAnnotation()
+        artwork.coordinate = CLLocationCoordinate2D(latitude: detailPlaceViewModel?.detailPlace?.geometry.location.lat  ?? LatLng().lat, longitude: detailPlaceViewModel?.detailPlace?.geometry.location.lng  ?? LatLng().lng)
+        mapView.addAnnotation(artwork)
+        mapView.setRegion(coordinateRegion, animated: true)
     }
     
     private func configBackgroundOpeningHoursView()
@@ -177,12 +193,12 @@ extension CarRepairDetailViewController: MKMapViewDelegate
 //        annotation.subtitle = "current location"
 //        mapView.addAnnotation(annotation)
         
-        let location = locations.last
-        
-        let center = CLLocationCoordinate2D(latitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!)
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
-        
-        self.mapView.setRegion(region, animated: true)
+//        let location = locations.last
+//
+//        let center = CLLocationCoordinate2D(latitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!)
+//        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+//
+//        self.mapView.setRegion(region, animated: true)
         
         //centerMap(locValue)
     }

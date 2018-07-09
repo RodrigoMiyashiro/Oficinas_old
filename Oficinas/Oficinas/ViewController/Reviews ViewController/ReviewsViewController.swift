@@ -26,7 +26,8 @@ class ReviewsViewController: CustomViewController
         self.set(title: "Comentários")
         
         reviewsTableView.tableFooterView = UIView()
-        reviewsTableView.reloadData()
+        reviewsTableView.rowHeight = UITableViewAutomaticDimension
+        reviewsTableView.estimatedRowHeight = UITableViewAutomaticDimension
     }
 
 }
@@ -51,17 +52,3 @@ extension ReviewsViewController: UITableViewDataSource
         return cell
     }
 }
-
-//extension ReviewsTableViewCell: UITableViewDelegate
-//{
-//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
-//    {
-//        return 140 //UITableViewAutomaticDimension
-//    }
-//
-//    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat
-//    {
-//        return UITableViewAutomaticDimension
-//    }
-//}
-

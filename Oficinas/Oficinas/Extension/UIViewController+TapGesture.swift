@@ -39,7 +39,7 @@ extension UIViewController: SFSafariViewControllerDelegate
         
         if let url = URL(string: urlString)
         {
-            let vc = SFSafariViewController(url: url) //SFSafariViewController(url: url, entersReaderIfAvailable: true)
+            let vc = SFSafariViewController(url: url)
             vc.delegate = self
             present(vc, animated: true)
         }
