@@ -1,14 +1,14 @@
 //
-//  GooglePlacesViewModel.swift
+//  ReviewsViewControllerTest.swift
 //  OficinasTests
 //
-//  Created by Rodrigo Miyashiro on 03/07/18.
+//  Created by Rodrigo Miyashiro on 09/07/18.
 //  Copyright © 2018 Rodrigo Miyashiro. All rights reserved.
 //
 
 import XCTest
 
-class GooglePlacesViewModel: XCTestCase {
+class ReviewsViewControllerTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
