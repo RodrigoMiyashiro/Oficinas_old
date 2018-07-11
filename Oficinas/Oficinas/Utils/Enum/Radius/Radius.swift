@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import CoreLocation
 
 enum Radius: CGFloat
 {
     case ten = 10
+}
+
+enum RegionRadius: CLLocationDistance
+{
+    case thousand = 1000
 }

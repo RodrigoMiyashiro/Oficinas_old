@@ -46,7 +46,12 @@ extension GooglePlacesViewModel
         GooglePlaceManager.getPlaces(withURL: url) { (places, error) in
             if let places = places
             {
-                if places.nextPageToken != ""
+                if places.list.count == 0
+                {
+                    let error = NSError(domain: places.status, code: 404, userInfo: nil)
+                    completion(error)
+                }
+                else if places.nextPageToken != ""
                 {
                     self.places = places
                 }

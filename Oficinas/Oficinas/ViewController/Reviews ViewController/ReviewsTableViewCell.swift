@@ -23,6 +23,7 @@ class ReviewsTableViewCell: UITableViewCell
         }
     }
     
+    
     // MARK: - IBOutlets
     @IBOutlet weak var userReviewImage: UIImageView!
     @IBOutlet weak var userNameReviewLabel: UILabel!
@@ -32,19 +33,20 @@ class ReviewsTableViewCell: UITableViewCell
     
     
     
-    
+    // MARK: - Life Cycle
     override func awakeFromNib()
     {
         super.awakeFromNib()
     
-//        configImage()
+        configImage()
     }
 
+    
+    // MARK: - Configurations
     private func configImage()
     {
         userReviewImage.circleView()
     }
-    
     
     private func setLabels(name: String, rating: String, text: String, time: String)
     {
@@ -58,5 +60,4 @@ class ReviewsTableViewCell: UITableViewCell
     {
         userReviewImage.download(image: urlImage, placeholder: Image.placeholderUser.rawValue)
     }
-
 }

@@ -1,0 +1,143 @@
+{
+    "html_attributions": [],
+    "result": {
+        "formatted_address": "Rua Vergueiro, 1864 - Vila Mariana, São Paulo - SP, 04102-000, Brazil",
+        "formatted_phone_number": "(11) 5573-2915",
+        "id": "3fbf4e0e6975e8e968d36b73cc4a5e33a079ba6d",
+        "name": "Beto Braz Centro Automotivo",
+        "opening_hours": {
+            "open_now": false,
+            "periods": [
+                        {
+                        "close": {
+                        "day": 1,
+                        "time": "1800"
+                        },
+                        "open": {
+                        "day": 1,
+                        "time": "0800"
+                        }
+                        },
+                        {
+                        "close": {
+                        "day": 2,
+                        "time": "1800"
+                        },
+                        "open": {
+                        "day": 2,
+                        "time": "0800"
+                        }
+                        },
+                        {
+                        "close": {
+                        "day": 3,
+                        "time": "1800"
+                        },
+                        "open": {
+                        "day": 3,
+                        "time": "0800"
+                        }
+                        },
+                        {
+                        "close": {
+                        "day": 4,
+                        "time": "1800"
+                        },
+                        "open": {
+                        "day": 4,
+                        "time": "0800"
+                        }
+                        },
+                        {
+                        "close": {
+                        "day": 5,
+                        "time": "1800"
+                        },
+                        "open": {
+                        "day": 5,
+                        "time": "0800"
+                        }
+                        },
+                        {
+                        "close": {
+                        "day": 6,
+                        "time": "1200"
+                        },
+                        "open": {
+                        "day": 6,
+                        "time": "0800"
+                        }
+                        }
+                        ],
+            "weekday_text": [
+                             "Monday: 8:00 AM – 6:00 PM",
+                             "Tuesday: 8:00 AM – 6:00 PM",
+                             "Wednesday: 8:00 AM – 6:00 PM",
+                             "Thursday: 8:00 AM – 6:00 PM",
+                             "Friday: 8:00 AM – 6:00 PM",
+                             "Saturday: 8:00 AM – 12:00 PM",
+                             "Sunday: Closed"
+                             ]
+        },
+        "photos": [
+                   {
+                   "height": 2340,
+                   "html_attributions": [
+                                         "<a href=\"https://maps.google.com/maps/contrib/111794123075313969107/photos\">Adalberto Mota</a>"
+                                         ],
+                   "photo_reference": "CmRaAAAAvzJgHfgT5wMjUXpoTevR9zsq5oF86-LjqkpmEfKEFmB9iVXVSFdiuGImDFrM1FOgL-T3EGq4bwK0XVNQ9wt3x6cb4DET9no-irODtbf0mRSkgKjPxNeILz7AMZb4NIlLEhB3OHLTr6zU2OFVON8j2MoJGhQ3O03O3ERYm6unvaf18fr1cd5Fog",
+                   "width": 4160
+                   }
+                   ],
+        "place_id": "ChIJSaapyppZzpQRNRP9QC2GYcE",
+        "rating": 4.2,
+        "reference": "CmRSAAAAuQz5XN65zobowqNNJ1Ief4MS0gMNOGRVDBdX6iogJKT2Z6YDVgyr0NlsW6OHwju-KOQbBiup1uWHW6swpeSViOvNtygK2ryLIrIDrl9svgUPrW0VIkJ7-Re92GowiDFGEhCmTHVd0GIez0J9LneC-Bt_GhQR6CKqboI39UwngbViDr-8ZYE8Bw",
+        "reviews": [
+                    {
+                    "author_name": "Isabella Rahal",
+                    "author_url": "https://www.google.com/maps/contrib/113845368081196794250/reviews",
+                    "language": "pt",
+                    "profile_photo_url": "https://lh5.googleusercontent.com/-a7a2DEIesAI/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7pL6SMboAaq4PIbbt-YHRqYgmpgNA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                    "rating": 5,
+                    "relative_time_description": "a year ago",
+                    "text": "Honestidade, caráter e ética. Virei cliente fiel."
+                    },
+                    {
+                    "author_name": "Arlequina Sobr",
+                    "author_url": "https://www.google.com/maps/contrib/111568976933284487242/reviews",
+                    "language": "pt",
+                    "profile_photo_url": "https://lh5.googleusercontent.com/-odAGE77-RtY/AAAAAAAAAAI/AAAAAAAAA9Y/HxgBNbrGxS0/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                    "rating": 1,
+                    "relative_time_description": "2 years ago",
+                    "text": "Em\nMeados de novembro levei meu carro nesta oficina o qual já havia levado anteriormente e resolveram o problema, pois bem levei novamente pois o giro do motor alternava.\nNo dia seguinte liguei e estava pronto isto era sexta feira.\nPaguei 430,00 reais em espécie, e o tal Brás falou troquei isso troquei aquilo, sai da oficina 10 minutos depois o mesmo problema, portanto trocou nada nada nada, fui no sábado e seu sócio falou todas as peças tem garantia, falei não deixo mais meu carro aqui de jeito nenhum paguei em dinheiro e quero de volta não tinham dinheiro me desanima cheque, foi pago.\nLevei em\nUma inficionada de Verdade especializados em\nHonda, simplesmente o técnico falou DR. entupiram a mangueira do diagrama, e desentupiu, o pior foi ele falar não trocaram peça alguma neste motor.\nPortanto não recomendo que levem seus veículos lá, e se passarem na frente olhem para o outro lado."
+                    },
+                    {
+                    "author_name": "Eleazar de Carvalho Silva",
+                    "author_url": "https://www.google.com/maps/contrib/117843717382820517451/reviews",
+                    "language": "pt",
+                    "profile_photo_url": "https://lh5.googleusercontent.com/-75emXCugcb0/AAAAAAAAAAI/AAAAAAAADP8/dv2qVRH3Z5w/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                    "rating": 4,
+                    "relative_time_description": "a year ago",
+                    "text": "Bom atendimento "
+                    },
+                    {
+                    "author_name": "Rafaelasumi Sumi",
+                    "author_url": "https://www.google.com/maps/contrib/105513302983050916046/reviews",
+                    "profile_photo_url": "https://lh6.googleusercontent.com/-PawI6skTb7A/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7p9HO-URQ3UFLUYBEjBv4a4nyPPBA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                    "rating": 5,
+                    "relative_time_description": "a year ago",
+                    "text": ""
+                    },
+                    {
+                    "author_name": "Roberta Jamberg",
+                    "author_url": "https://www.google.com/maps/contrib/107054983931559726129/reviews",
+                    "profile_photo_url": "https://lh6.googleusercontent.com/-xDxzTRvgAww/AAAAAAAAAAI/AAAAAAAAMz0/hawiJyOC7No/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+                    "rating": 5,
+                    "relative_time_description": "3 months ago",
+                    "text": ""
+                    }
+                    ],
+        "website": "http://betoebrazcentroautomotivo.com.br/"
+    },
+    "status": "OK"
+}

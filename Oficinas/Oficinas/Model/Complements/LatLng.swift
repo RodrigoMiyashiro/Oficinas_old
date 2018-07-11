@@ -24,6 +24,6 @@ class LatLng: NSObject
     required init(dataJSON: JSON)
     {
         lat = CLLocationDegrees(dataJSON["lat"].doubleValue)
-        lng = CLLocationDegrees(dataJSON["lat"].doubleValue)
+        lng = CLLocationDegrees(dataJSON["lng"].doubleValue)
     }
 }

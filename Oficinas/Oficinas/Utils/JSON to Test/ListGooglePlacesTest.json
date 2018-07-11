@@ -1,0 +1,812 @@
+{
+    "html_attributions": [],
+    "next_page_token": "CrQCJQEAANHLnHbkaSvhic7OJxXBtzCDUYxxtEJpPhhHogNetTY2xhN5NQSzFk8dVgJ3_4UGPfv_b6_U66p9d6YneSYFclQ5MVToJwsl_PPvUFmgl0-JDxMpDjYOfUf4prvHt92toWwGWM9Fb2CL_1Hq53Z8s9cbT7eTfJ7KjguL0M-AChMUwmkZTJNymhSXvzRNMwPK9ry-SvWbSKULDQdx4DQJoXl7VWVb7K_II0jPy3EYc4x9AzeXrmCPvAPBJaanxSKKfhFbyICQOUHjMYVBrzHKXK-VKUaGl7h3icOEMXHNWol8SIRHeOq6OhatEz3uwQleuM8R1kyY6Xbpo6H9R5-OcBklbDNvJyS9a3YARMtJ38MEozgSmJTcIoUjGUGL0Y67htRHrRB9EKneUA4bTUeZEK0SEABshM8V6V7Dc7nFsqVVRkoaFAkLAA7X98OJX5QuPBymxdmsajxs",
+    "results": [
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4352405,
+                "lng": -49.25574169999999
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4339211697085,
+                "lng": -49.2544618197085
+                },
+                "southwest": {
+                "lat": -25.4366191302915,
+                "lng": -49.2571597802915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                "id": "af029184d4e4d552bb72af9c46f00bd71e2362c3",
+                "name": "Bigvel comércio de peças de ônibus LTDA.",
+                "opening_hours": {
+                "open_now": false
+                },
+                "place_id": "ChIJBwpYKUXk3JQRzsbJ29HKHfc",
+                "plus_code": {
+                "compound_code": "HP7V+WP Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7V+WP"
+                },
+                "rating": 4.3,
+                "reference": "CmRSAAAAI4ghW9B4Xb_M2u4Xj8odGAQqk56UjrDl-CVdM84_0dcvxwb66mEE4So8jY3dYYpHUvDhWaA15ns4mtBJ1JN4YdsAJerub-tCaCyF60H72bSoC2p_FGEaRuPAMkY6cYX3EhAL8j_FeKMY3FHzvKuE-NFgGhTDZnWd91rQ7N6ez8y8meCN_QKiYw",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Rua da Paz, 687 - Centro, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4346668,
+                "lng": -49.2591516
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4333041197085,
+                "lng": -49.25780811970851
+                },
+                "southwest": {
+                "lat": -25.4360020802915,
+                "lng": -49.26050608029151
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                "id": "6a842bafef26ccd4a2f4047f9c887a39e1e35f74",
+                "name": "Stihl em Curitiba Cassel Máquinas",
+                "opening_hours": {
+                "open_now": true
+                },
+                "photos": [
+                           {
+                           "height": 4000,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/115664886570566139297/photos\">Anderson By GiroClick</a>"
+                                                 ],
+                           "photo_reference": "CmRaAAAAZ6MNRkRnUW5uacbTRtKqUBiq4DsGGKEncGchvUj5KhAhe-wNXkq_TM_38vZrkuAzpOwdhRTzonB2lKinEvx5IBGqtB2pSHHnZH3FTEaBmw0T1Z7U7lighv6mojt8EoffEhCNR8CtHe4GYorE0lmqkMnZGhSQTEuiY5maw2ud9W20trPtOvFn1A",
+                           "width": 6000
+                           }
+                           ],
+                "place_id": "ChIJI-bkYkPk3JQRPZwF5FVMgOs",
+                "plus_code": {
+                "compound_code": "HP8R+48 Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP8R+48"
+                },
+                "rating": 2.4,
+                "reference": "CmRSAAAAlpBkWUV_Qss2XrwEC97FIL5Jz5jmLrLVCW4HgfU4HLXr-WsN5uhwD41dBSsMQAZaah9C_P1q1Wyo7N83MLhm4gJ1HNk-OQC6vXpT7aftoghetvetZWa0qcEaB_g0Xk0vEhCx8efvxydXPcb2ouOmzHHYGhQJxbDv_mTb0ZWwzk6-W_pH4pV2zw",
+                "scope": "GOOGLE",
+                "types": [
+                          "department_store",
+                          "car_repair",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Sete de Setembro, 2044 - Centro, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.435516,
+                "lng": -49.25875399999999
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4341992197085,
+                "lng": -49.2574073697085
+                },
+                "southwest": {
+                "lat": -25.4368971802915,
+                "lng": -49.26010533029149
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "46d7c76426b40d7f527c8ded9e1ff5c5f5ecc7e5",
+                "name": "Auto Vidros Glas Weld do Brasil",
+                "opening_hours": {
+                "open_now": true
+                },
+                "photos": [
+                           {
+                           "height": 705,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/100202302278290190658/photos\">Auto Vidros Glas Weld do Brasil</a>"
+                                                 ],
+                           "photo_reference": "CmRaAAAAiA-URWtxBeerLwXb4Ssy1VsekL9r-NNaGOHf702h7DtVlLFXsZCd5yxQqQ9tR87kNCxkBTGrjnAH7sPNE_DnalvFa8vkR7De0mzAgr1ZfUgW5jYn0FESGXLdgd6F5XpXEhDpoAnSO7lh_Jo-8lJJ4UjfGhTOFQvai7r_rac8eH-FMd4gCacfXA",
+                           "width": 1121
+                           }
+                           ],
+                "place_id": "ChIJCWixp0Tk3JQROVJXnqZFJt8",
+                "plus_code": {
+                "compound_code": "HP7R+QF Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7R+QF"
+                },
+                "rating": 3.9,
+                "reference": "CmRSAAAAGRYdfofi_vunSoNvFG0HCBI7yVUkcc_xRl1KGUQF5Q0AacUG_hvGppx0YBN4GHpnqIfkqMCB_rVLe-47p-wzg44qTI21Z1Iy8g6GUri0YbuM4JQVEzgTLEZO6Xg9DwneEhCSuS7rORac7quaW5_qNo8eGhQlIORWB4u8CVyNptgScXBwCFd0kQ",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Presidente Affonso Camargo, 149 - Jardim Botânico, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4346016,
+                "lng": -49.25360599999999
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4332600697085,
+                "lng": -49.2521800197085
+                },
+                "southwest": {
+                "lat": -25.4359580302915,
+                "lng": -49.25487798029149
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "e6d885125d26d65e174712f0cea3f969a54bb992",
+                "name": "Oficina Mecânica Sofiste",
+                "photos": [
+                           {
+                           "height": 2560,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/109983908843637797335/photos\">Joarez Sofiste</a>"
+                                                 ],
+                           "photo_reference": "CmRaAAAAin5ov4bLdUl3lMdnuHhzWCmaXxb7AGPB4jRggB90J6KeQb5bynXdPCGy_YsldzppJAeqwhYCrrGpNHgOweLYNcN8O7Id59zRa8HeKz7psITcwfLy8uFYevsIMjNKXOaKEhCjGJ2dEelp4cmZYu2ozP_zGhQK86nTy8QfVSMMuCMqAFYWJGnmMA",
+                           "width": 1920
+                           }
+                           ],
+                "place_id": "ChIJk6Bm3jDk3JQROGpD5LkFTI4",
+                "plus_code": {
+                "compound_code": "HP8W+5H Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP8W+5H"
+                },
+                "rating": 4.9,
+                "reference": "CmRSAAAA971A72Hz4NV-SN2CbjUAICjs2eLDFTKI51RY8Mz4efEVcj1je9XsPfhAHhgaGSRCC8FfXC46vvzGL6DgmCJh0rkWWb7unI9pEt8BG_V9l9T5NRoYVTNhKZmpfAaxOnlgEhCtMbhD2uZEfkUViPimM9BiGhTEf-pn5er1k-Iw9aRyW4CIaJxeog",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Rua Atílio Bório, 103 - Cristo Rei, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4333442,
+                "lng": -49.25935039999999
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4319952197085,
+                "lng": -49.25800141970849
+                },
+                "southwest": {
+                "lat": -25.4346931802915,
+                "lng": -49.26069938029148
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                "id": "f301974c3faf23a8b8f51d5abd3e3a0d73c704ac",
+                "name": "Oishi Electronics Ltd.",
+                "opening_hours": {
+                "open_now": true
+                },
+                "photos": [
+                           {
+                           "height": 2340,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/110058741386400521631/photos\">Daniel Birck</a>"
+                                                 ],
+                           "photo_reference": "CmRaAAAAPYWGs7eBRnbaLYEPj4exij8MlLF8Qv9yVC8odHyQ9Fp9_ywjBHeLqfvtYWbEqTdn5xnyhuJIF5qcTep-Efh7SVRsYtnTDl6vIGqmcO44Yu1yoErnaGdpxV-7SpvqP1PJEhCR0yo1EwSNzXAOT4nr4TQTGhS2uvWq00xa9X6IAqtEVJjptBfMRw",
+                           "width": 4160
+                           }
+                           ],
+                "place_id": "ChIJWcxNjkPk3JQR41hbVwS_56Q",
+                "plus_code": {
+                "compound_code": "HP8R+M7 Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP8R+M7"
+                },
+                "rating": 4.4,
+                "reference": "CmRSAAAAg7p0UfCuvzSz6FqqUoCD96S_bUGUX1OoYK2mD9ZDv1b8gOoTYCZ2iB2UgbfuDZSdd-5zu6gvQLO5r4AvpBjJ57Ed_42FKd9lLv5YEwyfNg1QB7a_HPkCtfwe-YEgIx6HEhB6Z94JQerS57MNT7n302i2GhTZYShblFJG6mO7Nb8p02PtVB1T0g",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "electronics_store",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Av. Visconde de Guarapuava, 1805 - Rua Dr. Faivre, 1174 - Centro, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.43059999999999,
+                "lng": -49.2550421
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.42931651970849,
+                "lng": -49.2537000697085
+                },
+                "southwest": {
+                "lat": -25.4320144802915,
+                "lng": -49.2563980302915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "e973fa7325f79cc1287205f47c706b6916734bc6",
+                "name": "Buddy Automotive Center - Alto da XV",
+                "opening_hours": {
+                "open_now": true
+                },
+                "photos": [
+                           {
+                           "height": 315,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/115731780557496567941/photos\">Amigão Centro Automotivo - Alto da XV</a>"
+                                                 ],
+                           "photo_reference": "CmRaAAAAg15JeLu5a4J4s6BW5Q3fYtPprht1vR7ftqsxyUM0108mZ1NMOtshxMStk-bk7_H4nYHoh5mOPvmvOExnv5CcfFUyS1UfHBHuK65xGvZYJeQghnoEan7tnBug4bNFkQACEhBmhP7TMSZYNoOQR8JEZZvcGhSTcyoQVgdCBEGZxfkuztU64vG2Tw",
+                           "width": 850
+                           }
+                           ],
+                "place_id": "ChIJLyZH3UXk3JQR3sfWUiscOLc",
+                "plus_code": {
+                "compound_code": "HP9V+QX Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP9V+QX"
+                },
+                "rating": 4.1,
+                "reference": "CmRSAAAANApq7HlfhuWx4FwOPJARJPRDO6K4-WX5ewSEfpoo-9Xb0CysLx-B6SWoIqwUGDrsWSzw92J4oGE4Oqo94gkgrjoEBReT2cXPBuIjxGmFkEMft5mlQl5n1lpnVfOGfiF6EhBaBPXZLOvtbJ53H1XZhMtfGhR-jv2Yjkw9U2YGY-3lW_i0dTCMCw",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "electronics_store",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Senador Souza Naves, 261 - Alto da Rua XV, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4353382,
+                "lng": -49.2508432
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4340741697085,
+                "lng": -49.2494930197085
+                },
+                "southwest": {
+                "lat": -25.43677213029151,
+                "lng": -49.25219098029149
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                "id": "8032c0939ea8cb177625b436e05e81acb576faf7",
+                "name": "Prima Irmã Borracharia",
+                "place_id": "ChIJ7bv7rVHk3JQRPpa4Yiypwvo",
+                "plus_code": {
+                "compound_code": "HP7X+VM Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7X+VM"
+                },
+                "rating": 5,
+                "reference": "CmRSAAAASUgbVBo7MQBMr_EozJ_JniksBerRyAFiuxn2Oj-befJHvFaJpoLg8ERxGraK3azkz7gCWQfAODakiQLyNbK_h6uWFq1vxRQHUAN5YcwVr4dCOxDhjijwvFtiJquN52njEhAbXokqV2l9l4WJ7YCOWgbPGhSVSvvIFTS2wuCIYsPx25rcZTikrg",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Presidente Affonso Camargo, 919 - Jardim Botânico, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4337451,
+                "lng": -49.25042009999999
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4324450197085,
+                "lng": -49.2490757697085
+                },
+                "southwest": {
+                "lat": -25.4351429802915,
+                "lng": -49.2517737302915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "378d4d5a139b35cfeee5305d86ffae531ba5b329",
+                "name": "Oficina Auto Fix",
+                "opening_hours": {
+                "open_now": true
+                },
+                "photos": [
+                           {
+                           "height": 720,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/115851793132229416931/photos\">Oficina Auto Fix</a>"
+                                                 ],
+                           "photo_reference": "CmRaAAAAPWdrTvETD4cJ4um_t7qBDvENDxYxYpmN-U6mG27s6Vluk3e1z-f-Ff4Fli7eeiVo3isBl3yMCDh0sqiRP2gv1her0c5NcUqxsDRAKhDFbRh-2GnkW848flrk3p5cVHqbEhBj6LRh7LcPr28Xt5xoTZoqGhQJFhoeFK1LvywKOlysnha3KWECNA",
+                           "width": 960
+                           }
+                           ],
+                "place_id": "ChIJdVKS2VHk3JQR9R1nmiX0ZgE",
+                "plus_code": {
+                "compound_code": "HP8X+GR Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP8X+GR"
+                },
+                "rating": 4.8,
+                "reference": "CmRRAAAA6sfrNQlgfE7DdsRIfLl8JtZybh3_CNBzdL36-VdDDIGgy3lEFfsN053QpQ5MMpdn_EMT8-dWGeudYTZUHjer3gn_RmUv57ygoQWNIBZROxo1fTDaUSjSYuj_iRiZW1tNEhDu7YbcxRNDN6nClOChNydcGhRGBnVLX6DEQcMp5rUNhHWkAA5ZtA",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Rua Francisco Alves Guimarães, 511 - Cristo Rei, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4390272,
+                "lng": -49.2538261
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4376024197085,
+                "lng": -49.2524889197085
+                },
+                "southwest": {
+                "lat": -25.4403003802915,
+                "lng": -49.2551868802915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                "id": "b087add5b2b2bfe487379d311b02ffecc25436a3",
+                "name": "Kiko Custom Bike",
+                "opening_hours": {
+                "open_now": true
+                },
+                "photos": [
+                           {
+                           "height": 2340,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/114462031006206688110/photos\">LOW JOB Suspensão e manutenção</a>"
+                                                 ],
+                           "photo_reference": "CmRaAAAAgNW81wfnXPCG2MBclsR60JDU-fQwDez09qdaYATLx4xxwMEmp_ZIZ-ifhlKwtXo7IWPpI7bnL6VBFv2FVHaSIXI-rWnt2TAoGJhPmIR0LjIyeVjlqM9MVBZyZwV2YxhDEhBmGCU055I3gaeJUoSdG9gsGhSSwd8QDZ5qC_oL4PmbI4lmw18ACQ",
+                           "width": 4160
+                           }
+                           ],
+                "place_id": "ChIJ_-L_B1rk3JQRS9zh_yYDTJ4",
+                "plus_code": {
+                "compound_code": "HP6W+9F Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP6W+9F"
+                },
+                "rating": 4.9,
+                "reference": "CmRSAAAApI5muESW6txMy4i8jVKp73glqU99UwK_rxge901TLnZ0HGlzQDMyQCliR1lWmlCRAdmY_52-hC3CrfYYfk4U9aJbVPfdZHow0G42lVra9TRvRgZ0pnsg3CdvhhHENmAYEhA2fz1ZWXYMXGkED_n9DxH8GhTjCZHbA0hxvfOXS7DENxetsVEX7Q",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Rua Doutor João Skalski, 257 - Jardim Botânico, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4355099,
+                "lng": -49.2521902
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4341461197085,
+                "lng": -49.2508413197085
+                },
+                "southwest": {
+                "lat": -25.4368440802915,
+                "lng": -49.2535392802915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                "id": "f3d28563c25332ead5a4b8d0d5cde57a8e913cfa",
+                "name": "Borracharia Fera Car",
+                "place_id": "ChIJpXhKQVDk3JQR76jHb2_ZdGA",
+                "plus_code": {
+                "compound_code": "HP7X+Q4 Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7X+Q4"
+                },
+                "rating": 5,
+                "reference": "CmRRAAAAIFRYOe9e3xdnpXmJOnhXOPN9dEAaxWBPvipWCVNRM7WZyYPpwvNOBwYe5MqGkDH7Rw3eAEey62NUUq1ghdTELAHgYQfiu4uwWIqRkdrkNByNR-MjISQr2sSWm4xFheblEhAJFU08GNIhRVKjMPe46rNAGhTW6gSj8i78u_rzseJYNQuzDYP39Q",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Presidente Affonso Camargo, 795 - Cristo Rei, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4342685,
+                "lng": -49.255172
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4329157197085,
+                "lng": -49.2538144197085
+                },
+                "southwest": {
+                "lat": -25.4356136802915,
+                "lng": -49.2565123802915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "55efafadb1164e3d6062a3b4b3fe501bd8a61de4",
+                "name": "Ciborcar Oficina Mecânica Lataria e Pin",
+                "place_id": "ChIJ_cwbOUXk3JQRPefL0m7HFCk",
+                "plus_code": {
+                "compound_code": "HP8V+7W Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP8V+7W"
+                },
+                "reference": "CmRRAAAAh3QnPuaPTGmq3dmTIw5wuEljUSOYQeARar0bsGFuMkrkv5y_XYuNkh85HPZ4luL6BZS_s0PiQ0HJnqolOdPQGG-yKdUW7dd2uhq-_teD4efgT1xGuR-XE8qkFZ7TrxLOEhAJ7WealhEbGvB8Zg1OCp41GhRYpTRdmeQgh3ARAu9sT9n0X_ZKRw",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Rua Ubaldino do Amaral, 1610 - Alto da Glória, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4341898,
+                "lng": -49.2552239
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4328486197085,
+                "lng": -49.2538888697085
+                },
+                "southwest": {
+                "lat": -25.4355465802915,
+                "lng": -49.2565868302915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "8a9300a58a387326c4d607591504154674da685e",
+                "name": "J Machado Centro Automotivo",
+                "place_id": "ChIJf9s1OUXk3JQRkRJugaBaRIY",
+                "plus_code": {
+                "compound_code": "HP8V+8W Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP8V+8W"
+                },
+                "reference": "CmRSAAAAk0P3e34PPricA2jinvbF0HHjDfpktdfbEhXK1XWAcFaMebVlCqjpFqViNq-iL-iZqcRlX8dFdDfC22Ag63AcyBWAb7dv_F98JlRV9ri6eJD8WShrQvwAxS5IpmmxE4LjEhAQHw4X9kxJp_IdSVidKcEVGhRn3t0VoAnRrsrMhNSmpNYt0TaPEA",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Rua Ubaldino do Amaral, 1602 - Alto da Glória, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4353227,
+                "lng": -49.2556822
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4340799697085,
+                "lng": -49.2543328697085
+                },
+                "southwest": {
+                "lat": -25.43677793029151,
+                "lng": -49.2570308302915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "492121c7d151e14e20dd3befef46bacb256c361c",
+                "name": "JK Pneus Ltda Centro Automotivo",
+                "opening_hours": {
+                "open_now": true
+                },
+                "place_id": "ChIJz_fA0lrk3JQREE7lcHMoSzQ",
+                "plus_code": {
+                "compound_code": "HP7V+VP Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7V+VP"
+                },
+                "reference": "CmRRAAAA8ehHdpdEx2nwyhS_FX91dAeLYVise1WmNgNrM7ofHLji5XYT2n9qYB_tMZQcj78Dc3XxebxvgO_NBlzAH-NOSbpAINPn9CsBof86shc_7K0QuNAnnjRQtNvTWrQPv0ccEhCLeOaRTQOaPkTuXX3pfun3GhQiCFnfDMsk8y89bHtF-NA4j7YXFg",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Presidente Affonso Camargo, 453 - Capão da Imbuia, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4354779,
+                "lng": -49.2552555
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.43415341970849,
+                "lng": -49.25390626970849
+                },
+                "southwest": {
+                "lat": -25.4368513802915,
+                "lng": -49.25660423029149
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "417dc0f85a1cab7412e5520aa568ac9e8794204b",
+                "name": "Mg Car",
+                "place_id": "ChIJZ04_yVrk3JQR7iFdSohK2gM",
+                "plus_code": {
+                "compound_code": "HP7V+RV Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7V+RV"
+                },
+                "reference": "CmRRAAAAVDIFTQoO0FRsy8JN4S_vKCb8Nf8mRhSQuwjh1tLeQrijIMX4PEnSh1b-HvKJ1LJRR_Fr_sIQarO_uDOgvk_VmNyQaHkxCqkIXOTwTAN6Dp0L0QC7CxczIR5ZUXvX25kkEhAH0eI5mWfoXewoarjIoAChGhQQpy4NAKAhyhGlIUGuaUECGB_G7Q",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Presidente Affonso Camargo, 485 - Capão da Imbuia, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4354732,
+                "lng": -49.2556364
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4341546197085,
+                "lng": -49.2542873197085
+                },
+                "southwest": {
+                "lat": -25.4368525802915,
+                "lng": -49.2569852802915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                "id": "7d27f26d9046820f8e757394f0cc727e137aaff6",
+                "name": "Santos & Christofoletti",
+                "place_id": "ChIJrYAIzlrk3JQReO2pbE5wYbY",
+                "plus_code": {
+                "compound_code": "HP7V+RP Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7V+RP"
+                },
+                "reference": "CmRSAAAAGPk_0SHiHM3eqpkIpJzZH9GIlV0YPk5lYv7RtYBgRa_ZrXKwJ90uS7AFrdypSOxmEmULnaz1OyQWjxer4Gdz0xrwQK2TW8cqztcrA2E6V_pzoy3s8Eh1ZTBFMeiVQ8gQEhA9-XDTsHjCs9CIUecLzzHUGhSqT5VTjcGgkKL4NTQRVNIF4OVuTg",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Presidente Affonso Camargo, 453 - Capão da Imbuia, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4354288,
+                "lng": -49.25213470000001
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4341284697085,
+                "lng": -49.2507852697085
+                },
+                "southwest": {
+                "lat": -25.4368264302915,
+                "lng": -49.2534832302915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                "id": "019c5c8b91f90848cf30804d27c13da198812759",
+                "name": "Borracharia Nova Era",
+                "opening_hours": {
+                "open_now": true
+                },
+                "place_id": "ChIJIfMrQVDk3JQRrVePw9UrGys",
+                "plus_code": {
+                "compound_code": "HP7X+R4 Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7X+R4"
+                },
+                "reference": "CmRRAAAAs1s5JPuo7oVGduRvSBc9JVgX4Dwtm3Gti9Bw3OGbmQQ4FaPr2s142vwiOh-tsL1SyybJCMFB_WbtY497kdBEKLYI_q5kJ8enJ44-yrRCNgd3Q6FWCqoFxS6WpnhKyf31EhCoEglNPCenQeyFP6tBNwdEGhThLZoEeTM7dKcmhPcwVxPdTWMA8g",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Presidente Affonso Camargo, 38 - Cristo Rei, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4354144,
+                "lng": -49.2586319
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.43406541970849,
+                "lng": -49.25728291970849
+                },
+                "southwest": {
+                "lat": -25.4367633802915,
+                "lng": -49.25998088029149
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "40794786fb6835fb42165317175319f670585323",
+                "name": "Lataria E Pintura Martelinho De Ouro",
+                "place_id": "ChIJ11OKWEPk3JQRYF-tlQMjOTo",
+                "plus_code": {
+                "compound_code": "HP7R+RG Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7R+RG"
+                },
+                "reference": "CmRRAAAAOrmhrw-smb0JtA1m_7HgwSK6fiPHyMuHhOBEP086cyGX1pCJYmvsv3M4PdfutBfa6GAi12q5oZOZU0oHHWuwUJoP_jAxDNK8wFER2veXmFEQonB9LGFmPDkAK1FkmdEsEhCNQnuUezd4nRYDECt_nX22GhR7acFEKPtDA2pXmZssbibJI6z_5g",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Brazil"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4354955,
+                "lng": -49.2587834
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4341880697085,
+                "lng": -49.2574374697085
+                },
+                "southwest": {
+                "lat": -25.4368860302915,
+                "lng": -49.26013543029149
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "f282f1c6bad2341231407734ff686f751f839c3f",
+                "name": "Reparadora de Cabeçotes Monte Negro",
+                "place_id": "ChIJ54GBp0Tk3JQR6MjIMEeCZhE",
+                "plus_code": {
+                "compound_code": "HP7R+RF Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7R+RF"
+                },
+                "reference": "CmRRAAAAnYEDokSkVdOT2BtpoYTU-HfocVC4mvXyfD06w7YXwSKsuSzsQg5oTeWD3S2_G-oR32CbbGN2T9-2e52-ziLwNpHpLAvCJ7mXQZa51iYoW5I43xFYpWDc-c5lnZk9mI2KEhD9CTy30GOGanDB4NTJrcf6GhQw3HYg4tWq_IqdkIIrQuPT_do6pA",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Avenida Presidente Affonso Camargo, 149 - Capão da Imbuia, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.4333065,
+                "lng": -49.25142140000001
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4319645197085,
+                "lng": -49.25004136970851
+                },
+                "southwest": {
+                "lat": -25.4346624802915,
+                "lng": -49.2527393302915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "69f8091d69e0e8f2b0b08fa98912c9d9a3ec7d90",
+                "name": "O Especialista",
+                "opening_hours": {
+                "open_now": true
+                },
+                "place_id": "ChIJ_exL0k_k3JQR_KYDDxZ8W5A",
+                "plus_code": {
+                "compound_code": "HP8X+MC Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP8X+MC"
+                },
+                "rating": 5,
+                "reference": "CmRSAAAAMij1kehLx_VZFAo-WWcWvFMvnvmGIC4Xmd1fyQdpR_iQioMincJlN0-MtrNC4Tn7CF6HFB3zssvSJyA-5pq7N0f0RYTio-XuVxZcm0PG3RygqBNhk8krQFCAh9AFO9ZzEhBbosBKg9ljOElDHEiWRweAGhTDgko0EvkrfJRNP-MEact5dgs1jQ",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Rua Zeila Moura dos Santos, 361 - Cristo Rei, Curitiba"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": -25.435418,
+                "lng": -49.2508524
+                },
+                "viewport": {
+                "northeast": {
+                "lat": -25.4340690197085,
+                "lng": -49.2495034197085
+                },
+                "southwest": {
+                "lat": -25.4367669802915,
+                "lng": -49.2522013802915
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                "id": "3069e344ca319fd6cd562c7165b81b92fea49629",
+                "name": "Borracharia 24h",
+                "place_id": "ChIJIQaepFHk3JQR6N9kRGmcmfw",
+                "plus_code": {
+                "compound_code": "HP7X+RM Curitiba, State of Paraná, Brazil",
+                "global_code": "586GHP7X+RM"
+                },
+                "rating": 4.4,
+                "reference": "CmRSAAAAovfXdcIHq8kXpFy7sUr4KZmarKGEaejKWc_jtuzO9qpIUjD_uqfRsU-WkiikU_QKTHDrp5u2DjsEreT8F9wexy8bdI6S8JQkkeZL0zxFnAlMz2aQ1NPCrGFuGa-ybBUnEhCBQchbJH8kNRasB9A4OAKeGhQ-hIRb_zOVVgMaoZB9kQ6jg4wW7w",
+                "scope": "GOOGLE",
+                "types": [
+                          "car_repair",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "Cristo Rei, Curitiba"
+                }
+                ],
+    "status": "OK"
+}

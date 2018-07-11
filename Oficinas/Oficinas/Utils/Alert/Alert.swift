@@ -18,4 +18,20 @@ class Alert: NSObject
         
         return alert
     }
+    
+    static func show(title: String? = nil, message: String?, completion: @escaping (Bool) -> Void) -> UIAlertController
+    {
+        let alert = UIAlertController(title: title ?? "Desculpe..." , message: (message), preferredStyle: UIAlertControllerStyle.alert)
+        
+        
+        alert.addAction(UIAlertAction(title: "Sim", style: UIAlertActionStyle.default, handler: { _ in
+            completion(true)
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Não", style: UIAlertActionStyle.cancel, handler: { _ in
+            completion(false)
+        }))
+        
+        return alert
+    }
 }

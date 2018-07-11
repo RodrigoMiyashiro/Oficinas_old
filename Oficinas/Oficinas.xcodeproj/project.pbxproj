@@ -22,6 +22,23 @@
 		5B39750C20EF188500BA8C96 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39750B20EF188500BA8C96 /* UIColor.swift */; };
 		5B39750F20EF1B1200BA8C96 /* GooglePlacesDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39750E20EF1B1200BA8C96 /* GooglePlacesDetailViewModel.swift */; };
 		5B39751120EF3B5F00BA8C96 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39751020EF3B5F00BA8C96 /* String.swift */; };
+		5B6E98DE20F58D29005064D0 /* UIViewController+OpenURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E98DD20F58D29005064D0 /* UIViewController+OpenURL.swift */; };
+		5B6E98E120F59BF2005064D0 /* GooglePlaceDetailTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98E020F59BF2005064D0 /* GooglePlaceDetailTest.json */; };
+		5B6E98E320F59C6F005064D0 /* ParseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E98E220F59C6F005064D0 /* ParseTest.swift */; };
+		5B6E98E520F5A129005064D0 /* Photo.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98E420F5A129005064D0 /* Photo.json */; };
+		5B6E98E720F5A138005064D0 /* ListPhoto.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98E620F5A138005064D0 /* ListPhoto.json */; };
+		5B6E98E920F5A392005064D0 /* LatLng.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98E820F5A392005064D0 /* LatLng.json */; };
+		5B6E98EB20F5A411005064D0 /* Viewport.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98EA20F5A411005064D0 /* Viewport.json */; };
+		5B6E98EF20F5A535005064D0 /* Geometry.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98EE20F5A535005064D0 /* Geometry.json */; };
+		5B6E98F120F5A7A8005064D0 /* PlusCode.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98F020F5A7A8005064D0 /* PlusCode.json */; };
+		5B6E98F320F5A81A005064D0 /* Types.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98F220F5A81A005064D0 /* Types.json */; };
+		5B6E98F520F5A89F005064D0 /* Review.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98F420F5A89F005064D0 /* Review.json */; };
+		5B6E98F720F5A8FC005064D0 /* ListReviewTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98F620F5A8FC005064D0 /* ListReviewTest.json */; };
+		5B6E98F920F5A94B005064D0 /* OpeningHoursTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98F820F5A94B005064D0 /* OpeningHoursTest.json */; };
+		5B6E98FB20F5A9AB005064D0 /* ListPeriodTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98FA20F5A9AB005064D0 /* ListPeriodTest.json */; };
+		5B6E98FF20F5AA75005064D0 /* PeriodTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E98FE20F5AA75005064D0 /* PeriodTest.json */; };
+		5B6E990120F5AA96005064D0 /* DayTimeTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E990020F5AA96005064D0 /* DayTimeTest.json */; };
+		5B6E990320F5ABCF005064D0 /* ListGooglePlacesTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E990220F5ABCF005064D0 /* ListGooglePlacesTest.json */; };
 		5BA519EE20EB2FD000866210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA519ED20EB2FD000866210 /* AppDelegate.swift */; };
 		5BA519F320EB2FD000866210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA519F120EB2FD000866210 /* Main.storyboard */; };
 		5BA519F620EB2FD000866210 /* Oficinas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BA519F420EB2FD000866210 /* Oficinas.xcdatamodeld */; };
@@ -45,7 +62,7 @@
 		5BA51A4B20EB349800866210 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A4A20EB349800866210 /* Spinner.swift */; };
 		5BA51A4E20EB34CA00866210 /* APIURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A4D20EB34CA00866210 /* APIURL.swift */; };
 		5BA51A5020EB351600866210 /* GooglePlacesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A4F20EB351600866210 /* GooglePlacesTest.swift */; };
-		5BA51A5220EB352E00866210 /* GooglePlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5120EB352E00866210 /* GooglePlacesViewModel.swift */; };
+		5BA51A5220EB352E00866210 /* GooglePlacesViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5120EB352E00866210 /* GooglePlacesViewModelTest.swift */; };
 		5BA51A5420EB353F00866210 /* CarRepairListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5320EB353F00866210 /* CarRepairListViewControllerTest.swift */; };
 		5BA51A5620EB354A00866210 /* CarRepairDetailViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5520EB354A00866210 /* CarRepairDetailViewControllerTest.swift */; };
 		5BA51A5820EB355700866210 /* CustomViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA51A5720EB355700866210 /* CustomViewControllerTest.swift */; };
@@ -122,6 +139,23 @@
 		5B39750B20EF188500BA8C96 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		5B39750E20EF1B1200BA8C96 /* GooglePlacesDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesDetailViewModel.swift; sourceTree = "<group>"; };
 		5B39751020EF3B5F00BA8C96 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		5B6E98DD20F58D29005064D0 /* UIViewController+OpenURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+OpenURL.swift"; sourceTree = "<group>"; };
+		5B6E98E020F59BF2005064D0 /* GooglePlaceDetailTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GooglePlaceDetailTest.json; sourceTree = "<group>"; };
+		5B6E98E220F59C6F005064D0 /* ParseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseTest.swift; sourceTree = "<group>"; };
+		5B6E98E420F5A129005064D0 /* Photo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Photo.json; sourceTree = "<group>"; };
+		5B6E98E620F5A138005064D0 /* ListPhoto.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListPhoto.json; sourceTree = "<group>"; };
+		5B6E98E820F5A392005064D0 /* LatLng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LatLng.json; sourceTree = "<group>"; };
+		5B6E98EA20F5A411005064D0 /* Viewport.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Viewport.json; sourceTree = "<group>"; };
+		5B6E98EE20F5A535005064D0 /* Geometry.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Geometry.json; sourceTree = "<group>"; };
+		5B6E98F020F5A7A8005064D0 /* PlusCode.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PlusCode.json; sourceTree = "<group>"; };
+		5B6E98F220F5A81A005064D0 /* Types.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Types.json; sourceTree = "<group>"; };
+		5B6E98F420F5A89F005064D0 /* Review.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Review.json; sourceTree = "<group>"; };
+		5B6E98F620F5A8FC005064D0 /* ListReviewTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListReviewTest.json; sourceTree = "<group>"; };
+		5B6E98F820F5A94B005064D0 /* OpeningHoursTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OpeningHoursTest.json; sourceTree = "<group>"; };
+		5B6E98FA20F5A9AB005064D0 /* ListPeriodTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListPeriodTest.json; sourceTree = "<group>"; };
+		5B6E98FE20F5AA75005064D0 /* PeriodTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PeriodTest.json; sourceTree = "<group>"; };
+		5B6E990020F5AA96005064D0 /* DayTimeTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DayTimeTest.json; sourceTree = "<group>"; };
+		5B6E990220F5ABCF005064D0 /* ListGooglePlacesTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListGooglePlacesTest.json; sourceTree = "<group>"; };
 		5BA519EA20EB2FD000866210 /* Oficinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oficinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA519ED20EB2FD000866210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA519F220EB2FD000866210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -151,7 +185,7 @@
 		5BA51A4A20EB349800866210 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		5BA51A4D20EB34CA00866210 /* APIURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURL.swift; sourceTree = "<group>"; };
 		5BA51A4F20EB351600866210 /* GooglePlacesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesTest.swift; sourceTree = "<group>"; };
-		5BA51A5120EB352E00866210 /* GooglePlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesViewModel.swift; sourceTree = "<group>"; };
+		5BA51A5120EB352E00866210 /* GooglePlacesViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesViewModelTest.swift; sourceTree = "<group>"; };
 		5BA51A5320EB353F00866210 /* CarRepairListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairListViewControllerTest.swift; sourceTree = "<group>"; };
 		5BA51A5520EB354A00866210 /* CarRepairDetailViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailViewControllerTest.swift; sourceTree = "<group>"; };
 		5BA51A5720EB355700866210 /* CustomViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewControllerTest.swift; sourceTree = "<group>"; };
@@ -356,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				5BA51A0520EB2FD400866210 /* OficinasTests.swift */,
+				5B6E98E220F59C6F005064D0 /* ParseTest.swift */,
 				5BFA61D120F3A25300CEC1B8 /* PhotoTest.swift */,
 				5BFA61D320F3A25B00CEC1B8 /* PhotoList.swift */,
 				5BFA61D520F3A27B00CEC1B8 /* LatLngTest.swift */,
@@ -372,7 +407,7 @@
 				5BA51A4F20EB351600866210 /* GooglePlacesTest.swift */,
 				5BA51A5920EB356700866210 /* GooglePlacesListTest.swift */,
 				5BFA61ED20F3A38500CEC1B8 /* DetailPlaceTest.swift */,
-				5BA51A5120EB352E00866210 /* GooglePlacesViewModel.swift */,
+				5BA51A5120EB352E00866210 /* GooglePlacesViewModelTest.swift */,
 				5BFA61CD20F3A12C00CEC1B8 /* GooglePlacesDetailViewModelTest.swift */,
 				5BA51A5720EB355700866210 /* CustomViewControllerTest.swift */,
 				5BA51A5320EB353F00866210 /* CarRepairListViewControllerTest.swift */,
@@ -431,6 +466,7 @@
 				5B39751020EF3B5F00BA8C96 /* String.swift */,
 				5BA51A4120EB340000866210 /* UIViewController.swift */,
 				5BB1A11A20F10584000B01AA /* UIViewController+TapGesture.swift */,
+				5B6E98DD20F58D29005064D0 /* UIViewController+OpenURL.swift */,
 				5BA51A6020EC828F00866210 /* UIImage+Kingfisher.swift */,
 			);
 			path = Extension;
@@ -485,7 +521,22 @@
 		5BA51A2A20EB331700866210 /* JSON to Test */ = {
 			isa = PBXGroup;
 			children = (
+				5B6E990220F5ABCF005064D0 /* ListGooglePlacesTest.json */,
 				5BA51A2B20EB332A00866210 /* GooglePlacesTest.json */,
+				5B6E98E020F59BF2005064D0 /* GooglePlaceDetailTest.json */,
+				5B6E98E420F5A129005064D0 /* Photo.json */,
+				5B6E98E620F5A138005064D0 /* ListPhoto.json */,
+				5B6E98E820F5A392005064D0 /* LatLng.json */,
+				5B6E98EA20F5A411005064D0 /* Viewport.json */,
+				5B6E98EE20F5A535005064D0 /* Geometry.json */,
+				5B6E98F020F5A7A8005064D0 /* PlusCode.json */,
+				5B6E98F220F5A81A005064D0 /* Types.json */,
+				5B6E98F420F5A89F005064D0 /* Review.json */,
+				5B6E98F620F5A8FC005064D0 /* ListReviewTest.json */,
+				5B6E98F820F5A94B005064D0 /* OpeningHoursTest.json */,
+				5B6E98FA20F5A9AB005064D0 /* ListPeriodTest.json */,
+				5B6E98FE20F5AA75005064D0 /* PeriodTest.json */,
+				5B6E990020F5AA96005064D0 /* DayTimeTest.json */,
 			);
 			path = "JSON to Test";
 			sourceTree = "<group>";
@@ -769,9 +820,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA519FB20EB2FD400866210 /* LaunchScreen.storyboard in Resources */,
+				5B6E98EB20F5A411005064D0 /* Viewport.json in Resources */,
 				5BA519F820EB2FD400866210 /* Assets.xcassets in Resources */,
+				5B6E98F320F5A81A005064D0 /* Types.json in Resources */,
+				5B6E98FF20F5AA75005064D0 /* PeriodTest.json in Resources */,
+				5B6E98F120F5A7A8005064D0 /* PlusCode.json in Resources */,
 				5BA51A2C20EB332A00866210 /* GooglePlacesTest.json in Resources */,
 				5BA519F320EB2FD000866210 /* Main.storyboard in Resources */,
+				5B6E98EF20F5A535005064D0 /* Geometry.json in Resources */,
+				5B6E98E520F5A129005064D0 /* Photo.json in Resources */,
+				5B6E98E920F5A392005064D0 /* LatLng.json in Resources */,
+				5B6E990120F5AA96005064D0 /* DayTimeTest.json in Resources */,
+				5B6E98FB20F5A9AB005064D0 /* ListPeriodTest.json in Resources */,
+				5B6E98E720F5A138005064D0 /* ListPhoto.json in Resources */,
+				5B6E98E120F59BF2005064D0 /* GooglePlaceDetailTest.json in Resources */,
+				5B6E98F520F5A89F005064D0 /* Review.json in Resources */,
+				5B6E990320F5ABCF005064D0 /* ListGooglePlacesTest.json in Resources */,
+				5B6E98F720F5A8FC005064D0 /* ListReviewTest.json in Resources */,
+				5B6E98F920F5A94B005064D0 /* OpeningHoursTest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1005,6 +1071,7 @@
 				5BA51A6120EC828F00866210 /* UIImage+Kingfisher.swift in Sources */,
 				5B39750320EF04D000BA8C96 /* ListReviews.swift in Sources */,
 				5BA519EE20EB2FD000866210 /* AppDelegate.swift in Sources */,
+				5B6E98DE20F58D29005064D0 /* UIViewController+OpenURL.swift in Sources */,
 				5BA51A2920EB32C400866210 /* GooglePlacesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1014,13 +1081,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BFA61D420F3A25B00CEC1B8 /* PhotoList.swift in Sources */,
+				5B6E98E320F59C6F005064D0 /* ParseTest.swift in Sources */,
 				5BFA61EA20F3A33000CEC1B8 /* DayTimeTest.swift in Sources */,
 				5BA51A5A20EB356700866210 /* GooglePlacesListTest.swift in Sources */,
 				5BA51A5420EB353F00866210 /* CarRepairListViewControllerTest.swift in Sources */,
 				5BA51A5820EB355700866210 /* CustomViewControllerTest.swift in Sources */,
 				5BFA61DC20F3A2AE00CEC1B8 /* PlusCodeTest.swift in Sources */,
 				5BFA61E820F3A31D00CEC1B8 /* PeriodTest.swift in Sources */,
-				5BA51A5220EB352E00866210 /* GooglePlacesViewModel.swift in Sources */,
+				5BA51A5220EB352E00866210 /* GooglePlacesViewModelTest.swift in Sources */,
 				5BFA61CE20F3A12C00CEC1B8 /* GooglePlacesDetailViewModelTest.swift in Sources */,
 				5BFA61E420F3A2F000CEC1B8 /* OpeningHoursTest.swift in Sources */,
 				5BA51A5020EB351600866210 /* GooglePlacesTest.swift in Sources */,

@@ -13,9 +13,9 @@ class ReviewsViewController: CustomViewController
     // MARK: Lets and Vars
     var reviews: ListReviews?
     
+    
     // MARK: IBOutlets
     @IBOutlet weak var reviewsTableView: UITableView!
-    
     
     
     // MARK: - Life Cycle
@@ -33,6 +33,7 @@ class ReviewsViewController: CustomViewController
 }
 
 
+// MARK: - Extension TableView DataSource
 extension ReviewsViewController: UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int

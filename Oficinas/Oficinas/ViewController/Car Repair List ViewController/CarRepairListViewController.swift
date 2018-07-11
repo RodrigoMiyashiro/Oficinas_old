@@ -33,7 +33,6 @@ class CarRepairListViewController: CustomViewController
     @IBOutlet weak var placeTableView: UITableView!
     
     
-    
     // MARK: - Life Cycle
     override func viewDidLoad()
     {
@@ -43,47 +42,53 @@ class CarRepairListViewController: CustomViewController
         placeTableView.tableFooterView = UIView()
         
         self.set(title: "Oficinas Mecânicas")
-        
-        getLocation()
-        
+
         Spinner.shared.show(view: self.view)
+        configNotificationCenter()
         configPullToRefresh(object: placeTableView)
         infinityScroll()
+        
+        
     }
-
+    
     
     // MARK: - Configuration
+    private func configNotificationCenter()
+    {
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.addObserver(self, selector: #selector(appMovedToForeground), name: Notification.Name.UIApplicationDidBecomeActive, object: nil)
+    }
+    
     private func getLocation()
     {
-        locationManager.requestAlwaysAuthorization()
         locationManager.requestWhenInUseAuthorization()
         
-        print(CLLocationManager.authorizationStatus())
-        
-        
-        // TODO: - Open Alert to option change authorization status
         if CLLocationManager.authorizationStatus() == CLAuthorizationStatus.denied || CLLocationManager.authorizationStatus() == .notDetermined
         {
-            if let url = URL(string: UIApplicationOpenSettingsURLString)
-            {
-                UIApplication.shared.open(url)
-            }
+            alertControl()
         }
-        
-        if CLLocationManager.locationServicesEnabled()
+        else
         {
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyBest
             locationManager.requestAlwaysAuthorization()
             locationManager.startUpdatingLocation()
         }
-        else
-        {
-            if let url = URL(string: UIApplicationOpenSettingsURLString)
+    }
+    
+    private func alertControl()
+    {
+        self.setNavigationType(.present, viewController: Alert.show(title: "Habilitar geolocalização", message: "Precisamos da sua localização para mostrá-lo as oficinas mais próximas a você.", completion: { (status) in
+            if status
             {
-                UIApplication.shared.open(url)
+                self.openSettingURL()
             }
-        }
+        }))
+    }
+    
+    @objc func appMovedToForeground()
+    {
+        getLocation()
     }
     
     
@@ -132,6 +137,7 @@ class CarRepairListViewController: CustomViewController
 }
 
 
+// MARK: - Extension CLLocationManager Delegate
 extension CarRepairListViewController: CLLocationManagerDelegate
 {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
@@ -148,6 +154,7 @@ extension CarRepairListViewController: CLLocationManagerDelegate
 }
 
 
+// MARK: - Extension TableView DataSource
 extension CarRepairListViewController: UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -168,6 +175,7 @@ extension CarRepairListViewController: UITableViewDataSource
 }
 
 
+// MARK: - Extension TableView Delegate
 extension CarRepairListViewController: UITableViewDelegate
 {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)

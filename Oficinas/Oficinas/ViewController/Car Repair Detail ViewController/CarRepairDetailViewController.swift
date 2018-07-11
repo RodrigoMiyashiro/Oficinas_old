@@ -20,10 +20,8 @@ class CarRepairDetailViewController: CustomViewController
         didSet
         {
             detailPlaceViewModel?.detailPlaceDidChange = { [weak self] viewModel in
-                self?.centerMapOnLocation()
                 self?.loadData()
-                self?.tapGestureToCall()
-                self?.tapGestureToSafariVC()
+                
                 Spinner.shared.stopAnimating()
             }
         }
@@ -49,54 +47,40 @@ class CarRepairDetailViewController: CustomViewController
     {
         super.viewDidLoad()
 
+        self.set(title: "Detalhe")
         detailPlaceViewModel = GooglePlacesDetailViewModel()
         
-        configMapView()
         configBackgroundOpeningHoursView()
         configButton()
-        
-        self.set(title: "Detalhe")
-        
         loadDetail()
     }
 
     
     
     // MARK: - Configurations
-    private func configMapView()
+    func loadData()
     {
-//        // For use in foreground
-//        self.locationManager.requestWhenInUseAuthorization()
-//
-//        if CLLocationManager.locationServicesEnabled() {
-//            locationManager.delegate = self as? CLLocationManagerDelegate
-//            locationManager.desiredAccuracy = kCLLocationAccuracyBest
-//            locationManager.startUpdatingLocation()
-//        }
-//
-//        if let coor = mapView.userLocation.location?.coordinate{
-//            mapView.setCenter(coor, animated: true)
-//        }
-        
-//        centerMapOnLocation(location: initialLocation)
+        setLabels()
+        centerMapOnLocation()
+        addPin()
+        tapGestureToCall()
+        tapGestureToSafariVC()
     }
     
-
-    let regionRadius: CLLocationDistance = 1000
-    func centerMapOnLocation()
+    private func centerMapOnLocation()
     {
-        let location = CLLocation(latitude: detailPlaceViewModel?.detailPlace?.geometry.location.lat ?? LatLng().lat/*21.282778*/, longitude: detailPlaceViewModel?.detailPlace?.geometry.location.lng  ?? LatLng().lng /*-157.829444*/)
+        let location = CLLocation(latitude: detailPlaceViewModel?.detailPlace?.geometry.location.lat ?? LatLng().lat, longitude: detailPlaceViewModel?.detailPlace?.geometry.location.lng  ?? LatLng().lng)
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-                                                                  regionRadius, regionRadius)
+                                                                  RegionRadius.thousand.rawValue, RegionRadius.thousand.rawValue)
         
-//        let artwork = mkpoin(title: "King David Kalakaua",
-//                              locationName: "Waikiki Gateway Park",
-//                              discipline: "Sculpture",
-//                              coordinate: CLLocationCoordinate2D(latitude: detailPlaceViewModel?.detailPlace?.geometry.location.lat ?? LatLng().lat, longitude: detailPlaceViewModel?.detailPlace?.geometry.location.lng  ?? LatLng().lng))
+        mapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+    private func addPin()
+    {
         let artwork = MKPointAnnotation()
         artwork.coordinate = CLLocationCoordinate2D(latitude: detailPlaceViewModel?.detailPlace?.geometry.location.lat  ?? LatLng().lat, longitude: detailPlaceViewModel?.detailPlace?.geometry.location.lng  ?? LatLng().lng)
         mapView.addAnnotation(artwork)
-        mapView.setRegion(coordinateRegion, animated: true)
     }
     
     private func configBackgroundOpeningHoursView()
@@ -107,11 +91,6 @@ class CarRepairDetailViewController: CustomViewController
     private func configButton()
     {
         reviewsButton.buttonWhiteWithBlueBorder()
-    }
-    
-    func loadData()
-    {
-        setLabels()
     }
     
     private func setLabels()
@@ -172,34 +151,4 @@ class CarRepairDetailViewController: CustomViewController
         }
     }
     
-}
-
-
-extension CarRepairDetailViewController: MKMapViewDelegate
-{
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
-    {
-//        let locValue:CLLocationCoordinate2D = manager.location!.coordinate
-//
-//        mapView.mapType = MKMapType.standard
-//
-//        let span = MKCoordinateSpanMake(0.05, 0.05)
-//        let region = MKCoordinateRegion(center: locValue, span: span)
-//        mapView.setRegion(region, animated: true)
-//
-//        let annotation = MKPointAnnotation()
-//        annotation.coordinate = locValue
-//        annotation.title = "Javed Multani"
-//        annotation.subtitle = "current location"
-//        mapView.addAnnotation(annotation)
-        
-//        let location = locations.last
-//
-//        let center = CLLocationCoordinate2D(latitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!)
-//        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
-//
-//        self.mapView.setRegion(region, animated: true)
-        
-        //centerMap(locValue)
-    }
 }
